@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interactive map with Leaflet</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="full-container">
+        <div class="grid-container">
+          <div id="char_lines_container" class="grid-item">
+            <div class="chartH">
+              <h1>Charater Lines</h1>
+            </div>
+            <svg id="char_lines_chart"></svg>
+          </div>
+          <div id="episode_lines_container" class="grid-item">
+            <div class="chartH">
+              <h1>Episode Lines</h1>
+            </div>
+            <svg id="episode_lines_chart"></svg>
+          </div>
+          <div id="season_lines_container" class="grid-item">
+            <div class="chartH">
+              <h1>Season Lines</h1>
+            </div>
+            <svg id="season_lines_chart"></svg>
+          </div>
+        </div>
+        <div id="tooltip"></div>
+    </div>
+
+
+    <script src="js/d3.min.js"></script>
+    <script src="js/barchart.js"></script>
+    <script src="js/main.js"></script>
+
+    <div id="tooltip"></div>
+
+
+</body>
+
+</html>
