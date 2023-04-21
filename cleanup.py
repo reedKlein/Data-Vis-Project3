@@ -48,10 +48,10 @@ def word_replacement(df):
     print(df)
     return df
 
+# DO NOT RUN AGAIN
+# df = clear_modifiers('./data/game-of-thrones.csv')
+# single_word_name_lookup(df)
+# multi_word_name_lookup(df)
+# replaced_df = word_replacement(df)
 
-df = clear_modifiers('./data/game-of-thrones.csv')
-single_word_name_lookup(df)
-multi_word_name_lookup(df)
-replaced_df = word_replacement(df)
-
-replaced_df.to_csv('./data/game-of-thrones-cleaned.csv', sep=',', encoding='utf-8')
+# replaced_df.to_csv('./data/game-of-thrones-cleaned.csv', sep=',', encoding='utf-8')
