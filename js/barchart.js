@@ -10,7 +10,7 @@ class Barchart {
       this.config = {
         parentElement: _config.parentElement,
         logRange: _config.logRange || .5,
-        containerWidth: _config.containerWidth || 500,
+        containerWidth: _config.containerWidth || 750,
         containerHeight: _config.containerHeight || 300,
         margin: _config.margin || {top: 10, right: 10, bottom: 25, left: 40},
         logScale: _config.logScale || false,
