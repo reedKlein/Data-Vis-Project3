@@ -4996,7 +4996,7 @@ He turns his mount and exits.,,e10-Valar Morghulis,season-02,Game-of-Thrones
 " Lord Petyr Baelish, step forward.",Joffrey Baratheon,e10-Valar Morghulis,season-02,Game-of-Thrones
 LITTLEFINGER steps forward and kneels before Joffrey Baratheon.,,e10-Valar Morghulis,season-02,Game-of-Thrones
 " For your good service and ingenuity in uniting the Houses of Lannister and Tyrell, I declare that you shall be granted the castle of Harrenhal with all its attendant lands and incomes to be held by your sons and grandsons from this day until the end of time.",Joffrey Baratheon,e10-Valar Morghulis,season-02,Game-of-Thrones
-" You honor me beyond words, Your Grace. I shall have to acquire some sons and grandsons.  The crowd laughs",LITTLEFINGER,e10-Valar Morghulis,season-02,Game-of-Thrones
+" You honor me beyond words, Your Grace. I shall have to acquire some sons and grandsons.  The crowd laughs",Petyr Baelish,e10-Valar Morghulis,season-02,Game-of-Thrones
  Ser Loras Tyrell.,Joffrey Baratheon,e10-Valar Morghulis,season-02,Game-of-Thrones
 LORAS steps forward from the crowd and kneels.,,e10-Valar Morghulis,season-02,Game-of-Thrones
 " Your house has come to our aid. The whole realm is in your debt, none more so than I. If your family would ask anything of me, ask it, and it shall be yours.",JOFFFREY,e10-Valar Morghulis,season-02,Game-of-Thrones
@@ -5015,13 +5015,13 @@ CERSEI looks across to SANSA. CERSEI is pleased and SANSA is quite worried.,,e10
 " The gods are good. I am free to heed my heart. Ser Loras, I will gladly wed your sweet sister. You will be my queen and I will love you from this day until my last day.",Joffrey Baratheon,e10-Valar Morghulis,season-02,Game-of-Thrones
 The crowd applauds.,,e10-Valar Morghulis,season-02,Game-of-Thrones
 "SANSA walks away, quite solemn. Once she is out of view, she smiles and laughs in relief. LITTLEFINGER catches up to her.",,e10-Valar Morghulis,season-02,Game-of-Thrones
- My lady. My sincerest condolences.,LITTLEFINGER,e10-Valar Morghulis,season-02,Game-of-Thrones
+ My lady. My sincerest condolences.,Petyr Baelish,e10-Valar Morghulis,season-02,Game-of-Thrones
  They're right. I'm not good enough for him.,SANSA,e10-Valar Morghulis,season-02,Game-of-Thrones
-" You shouldn't say that. You'll be good enough for many things. He'll still enjoy beating you. And now that you're a woman, he'll be able to enjoy you in other ways as well.",LITTLEFINGER,e10-Valar Morghulis,season-02,Game-of-Thrones
+" You shouldn't say that. You'll be good enough for many things. He'll still enjoy beating you. And now that you're a woman, he'll be able to enjoy you in other ways as well.",Petyr Baelish,e10-Valar Morghulis,season-02,Game-of-Thrones
 " But, if he's not marrying me",SANSA,e10-Valar Morghulis,season-02,Game-of-Thrones
-" He'll let you go home? Joffrey Baratheon's not the sort of boy who gives away his toys. You have a tender heart, just like your mother did at your age. I can see so much of her in you. She was like a sister to me. For her sake, I'll help get you home.",LITTLEFINGER,e10-Valar Morghulis,season-02,Game-of-Thrones
+" He'll let you go home? Joffrey Baratheon's not the sort of boy who gives away his toys. You have a tender heart, just like your mother did at your age. I can see so much of her in you. She was like a sister to me. For her sake, I'll help get you home.",Petyr Baelish,e10-Valar Morghulis,season-02,Game-of-Thrones
  King's Landing is my home now.,SANSA,e10-Valar Morghulis,season-02,Game-of-Thrones
- Look around you. We're all liars here. And every one of us is better than you.,LITTLEFINGER,e10-Valar Morghulis,season-02,Game-of-Thrones
+ Look around you. We're all liars here. And every one of us is better than you.,Petyr Baelish,e10-Valar Morghulis,season-02,Game-of-Thrones
  BROTHEL,CUT TO ,e10-Valar Morghulis,season-02,Game-of-Thrones
 ROS applies make-up to her eye. There is a knock on the door. ROS stands up to welcome her client.,,e10-Valar Morghulis,season-02,Game-of-Thrones
  Come in. Make yourself comfortable.,ROS,e10-Valar Morghulis,season-02,Game-of-Thrones
@@ -6282,24 +6282,24 @@ Tyrion walks to pour a drink.,,e3-What is Dead May Never Die,season-02,Game-of-T
  Precisely. Theon's father loathes the Starks and will convince the boy to come to our side. Greyjoy can destroy the Northern army from within and we can have his father's ships.,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " Tyrion's chambers, again we do not realize at first that it is later.",INT,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " But remember, you must tell no one.",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- Tell no one what?,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ Tell no one what?,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  I plan to wed Princess Myrcella to Robin Arryn of the Vale. Lysa is not fond of me. But perhaps the promise of a royal match will convince her to let bygones be bygones.,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- She imprisoned you. She tried to execute you. And you offer her son a princess?,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ She imprisoned you. She tried to execute you. And you offer her son a princess?,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " For men in our position, holding grudges can be an encumbrance, don't you think?",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- And I suppose you want me to broker this agreement?,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ And I suppose you want me to broker this agreement?,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  Who better?,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 Littlefinger walks as he ponders.,,e3-What is Dead May Never Die,season-02,Game-of-Thrones
-" Yes, I could sing this song to Lysa, if I cared to. What's in it for me?",LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+" Yes, I could sing this song to Lysa, if I cared to. What's in it for me?",Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " The gratitude of the people of Westeros for helping to end this war, the adoration of the King for bringing the Vale back into the fold and Harrenhal.",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- Harrenhal is cursed.,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ Harrenhal is cursed.,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " Never took you for a superstitious man. By all means, tear it down and rebuild. You'll be able to afford it. I plan to make you Lord of the Riverlands.",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
-" With a single stroke, you'd make me one of the greatest lords in the realm.",LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+" With a single stroke, you'd make me one of the greatest lords in the realm.",Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  You served my family well in the matter of the succession.,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
-" So did Janos Slynt, and he was given Harrenhal, too. Until you snatched it away.",LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+" So did Janos Slynt, and he was given Harrenhal, too. Until you snatched it away.",Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " I need you to deliver Lysa Arryn. I didn't need Janos Slynt. It's settled, then?",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- (Nods.),LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ (Nods.),Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  Good. Oh. And remember,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- The Queen mustn't know.,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ The Queen mustn't know.,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 Tyrion drinks deeply and Littlefinger ponders.,,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  STORMLANDS,CUT TO,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  Renly's chambers at night,INT,e3-What is Dead May Never Die,season-02,Game-of-Thrones
@@ -6378,13 +6378,13 @@ Theon stands. Balon and Yara look on.,,e3-What is Dead May Never Die,season-02,G
  KING'S LANDING,CUT TO,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " Tyrion's chambers, at night",INT,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 "Tyrion sits and ponders. Littlefinger enters, enraged.",,e3-What is Dead May Never Die,season-02,Game-of-Thrones
-" I don't appreciate being made a fool of, dwarf. If Myrcella marries the Martell boy, she can't very well marry Robin Arryn, can she?",LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+" I don't appreciate being made a fool of, dwarf. If Myrcella marries the Martell boy, she can't very well marry Robin Arryn, can she?",Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " No, afraid not. Sorry about that.",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
-" And Harrenhal, I suppose that's off the table as well.",LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+" And Harrenhal, I suppose that's off the table as well.",Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " Yes, I fear so. Sorry about that, too.",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- Leave me out of your next deception.,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ Leave me out of your next deception.,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  That's a shame. You were to be the centerpiece of my next deception. My brother Jaime rots in a northern stockade. I would see him released. That's where you come in.,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
- Robb Stark will never release the Kingslayer.,LITTLEFINGER,e3-What is Dead May Never Die,season-02,Game-of-Thrones
+ Robb Stark will never release the Kingslayer.,Petyr Baelish,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 " No, he won't. But his mother might. How would you like to see your beloved Cat again?",TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
 BRONN enters.,,e3-What is Dead May Never Die,season-02,Game-of-Thrones
  Find him?,TYRION,e3-What is Dead May Never Die,season-02,Game-of-Thrones
@@ -6674,36 +6674,36 @@ Joffrey Baratheon threatens her with the loaded crossbow. She pauses.,,e4-Garden
  The Stormlands,EXT,e4-Garden of Bones,season-02,Game-of-Thrones
 "RENLY's war camp is bustling. He walks up to LITTLEFINGER, who awaits him.",,e4-Garden of Bones,season-02,Game-of-Thrones
 " Well, if it isn't my favorite whoremonger. Pray I haven't kept you waiting long.",RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
- Your Grace.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ Your Grace.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " Now you do the Lannisters' bidding, is that it? Tell me, was my brother's body even cold before you secured your newest patron?",RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
- I'm a practical man.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ I'm a practical man.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  Just not a loyal one.,RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
- And who would you have me be loyal to? Your brother's corpse?,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ And who would you have me be loyal to? Your brother's corpse?,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " I don't like you, Lord Baelish. I don't like your face. I don't like the words that come oozing out of your mouth. I don't want you in my tent one minute more than necessary. So tell me, why are you here?",RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
 LITTLEFINGER's eyes shift to BRIENNE.,,e4-Garden of Bones,season-02,Game-of-Thrones
  You can trust Brienne. Her loyalty comes without charge.,RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
-" You still have many friends at court, Your Grace, many who believe Ned Stark erred by not supporting your claim.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" You still have many friends at court, Your Grace, many who believe Ned Stark erred by not supporting your claim.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 RENLY takes an apple and sits down.,,e4-Garden of Bones,season-02,Game-of-Thrones
 " Now I understand. You know I have the numbers. You know I'm marching on King's Landing. When I take the throne, you hope to retain your position. And your head.",RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
- I would give priority to my head.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ I would give priority to my head.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  (snorts),RENLY,e4-Garden of Bones,season-02,Game-of-Thrones
-" I understand that you don't like me, and while that saddens me greatly, I did not come here today seeking your affection. When you march on King's Landing, you may find yourself facing a protracted siege or open gates.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" I understand that you don't like me, and while that saddens me greatly, I did not come here today seeking your affection. When you march on King's Landing, you may find yourself facing a protracted siege or open gates.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 RENLY ponders LITTLEFINGER's implications.,,e4-Garden of Bones,season-02,Game-of-Thrones
  The war camp at night.,CUT TO,e4-Garden of Bones,season-02,Game-of-Thrones
 "LITTLEFINGER stands my a fire, warming himself. LORAS and MARGAERY appreach. LORAS peels off into a nearby tent while MARGAERY walks past LITTLEFINGER. He follows her.",,e4-Garden of Bones,season-02,Game-of-Thrones
- Your Grace.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ Your Grace.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  Lord Baelish.,MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
- All of these tents look the same to me. -Would you be so kind,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ All of these tents look the same to me. -Would you be so kind,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " It would be my pleasure. It took me weeks to learn my way around the camp. Twice I walked in on officers in stages of undress. And the moment I learn which tent is mine, we're on the move again.",MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
-" ""Your tent""? Not ""Our tent""? The king snores, perhaps? Or simply prefers solitude? Pressures of command, no doubt. Four kings vying for the throne.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" ""Your tent""? Not ""Our tent""? The king snores, perhaps? Or simply prefers solitude? Pressures of command, no doubt. Four kings vying for the throne.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " I am not tutored in warfare, but basic arithmetic favors the side with the greater numbers.",MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
-" If war were arithmetic, the mathematicians would rule the world. I did notice your brother entering His Grace's tent just now.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" If war were arithmetic, the mathematicians would rule the world. I did notice your brother entering His Grace's tent just now.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  The place of a Kingsguard is by the king's side.,MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
-" And on the night of your wedding, who was by the king's side then?",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" And on the night of your wedding, who was by the king's side then?",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  You seem quite interested in our marriage.,MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
-" Your marriage is quite interesting. Not only to me, but to the realm. The marriage of a wealthy girl always breeds interest, if nothing else.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" Your marriage is quite interesting. Not only to me, but to the realm. The marriage of a wealthy girl always breeds interest, if nothing else.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " You've never married, have you?",MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
-" I've been unlucky in my affections, sadly.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" I've been unlucky in my affections, sadly.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " That is sad. Though perhaps it's for the best. The whole notion of marriage seems to confuse you, so allow me to explain. My husband is my king, and my king is my husband. Here is your tent, Lord Baelish. Good night.",MARGAERY,e4-Garden of Bones,season-02,Game-of-Thrones
 "MARGAERY walks away and LITTLEFINGER bows in respect, then ponders.",,e4-Garden of Bones,season-02,Game-of-Thrones
 EXT. OUTSIDE QARTH,,e4-Garden of Bones,season-02,Game-of-Thrones
@@ -6745,32 +6745,32 @@ It is nighttime and raining. ARYA lies in the mud.,,e4-Garden of Bones,season-02
 EXT. THE STORMLANDS,,e4-Garden of Bones,season-02,Game-of-Thrones
 "CATELYN sits in her tent. LITTLEFINGER enters, and she rises.",,e4-Garden of Bones,season-02,Game-of-Thrones
  How dare you?,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
- You may have heard false reports.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ You may have heard false reports.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  You betrayed Ned.,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
- Betrayed? I wanted him to serve as Protector of the Realm. I begged him to seize the moment.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ Betrayed? I wanted him to serve as Protector of the Realm. I begged him to seize the moment.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 I trusted you. My husband trusted you. And you repaid our faith with treachery.,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
-" No, my lady.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" No, my lady.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  Get out!,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
-" Cat, I've I've loved you since I was a boy. It seems to me that fate has given us this chance",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" Cat, I've I've loved you since I was a boy. It seems to me that fate has given us this chance",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 "CATELYN draws a knife, threateningly. LITTLEFINGER pauses, thinking.",,e4-Garden of Bones,season-02,Game-of-Thrones
  Have you lost your mind? Get out!,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
-" Do you want to see your girls again? Sansa, more beautiful than ever? And Arya, just as wild as ever?",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" Do you want to see your girls again? Sansa, more beautiful than ever? And Arya, just as wild as ever?",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 " You have Arya, too?",CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
- Both girls are healthy and safe. For now. But you know the Queen and you know Joffrey Baratheon. I fear for their longevity if they remain in the capital.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ Both girls are healthy and safe. For now. But you know the Queen and you know Joffrey Baratheon. I fear for their longevity if they remain in the capital.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
 "CATELYN ponders, then lowers the knife and places it down.",,e4-Garden of Bones,season-02,Game-of-Thrones
  What do you want?,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
- The Lannisters will trade your daughters for the Kingslayer.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ The Lannisters will trade your daughters for the Kingslayer.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  Of course they will. Jaime Lannister for two girls? Robb will never agree to those terms.,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
- I'm not bringing these terms to him. I'm bringing them to you.,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ I'm not bringing these terms to him. I'm bringing them to you.,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  You think I keep secrets from my son?,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
-" Robb has surprised them all with his skills in battle, but he's not a mother. Consider it, Cat. You may not get another chance. I've brought you a gift.",LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+" Robb has surprised them all with his skills in battle, but he's not a mother. Consider it, Cat. You may not get another chance. I've brought you a gift.",Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  I don't want your gifts. A token of Tyrion Lannister's goodwill. He wants you to understand that this exchange of prisoners is offered in good faith.,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
 Two servants enter and place down something heavy.,,e4-Garden of Bones,season-02,Game-of-Thrones
  Good faith?,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
 The servants bow and leave. CATELYN looks ashenly at LITTLEFINGER as she comes to realize what is in the chest before her.,,e4-Garden of Bones,season-02,Game-of-Thrones
  What's this?,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
 "CATELYN kneels slowly over the chest and opens it. She looks down, sadly.",,e4-Garden of Bones,season-02,Game-of-Thrones
- Your husband was an honorable man. He should rest beside his family in the crypts beneath Winterfell. You may not believe,LITTLEFINGER,e4-Garden of Bones,season-02,Game-of-Thrones
+ Your husband was an honorable man. He should rest beside his family in the crypts beneath Winterfell. You may not believe,Petyr Baelish,e4-Garden of Bones,season-02,Game-of-Thrones
  Get out.,CATELYN,e4-Garden of Bones,season-02,Game-of-Thrones
 "Speechless, LITTLEFINGER leaves. CATELYN begins to cry. She slams the chest closed.",,e4-Garden of Bones,season-02,Game-of-Thrones
  RIVERLANDS PRISONER ENCAMPMENT,EXT,e4-Garden of Bones,season-02,Game-of-Thrones
@@ -7073,28 +7073,28 @@ INT. RENLY's tent,,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 Loras mournfully kneels beside RENLY's body. MARGAERY paces in the background.,,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  We need to go home. Loras.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 "LITTLEFINGER enters the tent, just short of a panic.",,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" My lord, my lady.",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" My lord, my lady.",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  Get out.,LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" Stannis will be here in an hour. When he arrives, Renly's bannermen will flock to him. Your former companions will fight for the privilege of selling you to their new king.",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" Stannis will be here in an hour. When he arrives, Renly's bannermen will flock to him. Your former companions will fight for the privilege of selling you to their new king.",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  And you want that privilege for yourself.,LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" You will note that I am standing here talking to you, not Stannis.",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" You will note that I am standing here talking to you, not Stannis.",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  There's no time for this.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 " Ride back to Highgarden, sister. I'm not running from Stannis.",LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  Brienne of Tarth murdered Renly.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  I don't believe that. You don't believe that. Who gained the most from our king's death?,LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
- Stannis.,LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+ Stannis.,Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  I will put a sword through his righteous face.,LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  You can't stay here.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 " He would have been a true king, a good king.",LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" Tell me, Ser Loras, what do you desire most in this world?",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" Tell me, Ser Loras, what do you desire most in this world?",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  Revenge.,LORAS,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" I have always found that to be the purest of motivations, but you won't have a chance to put your sword through Stannis, not today. You'll be cut to pieces before he sets foot on solid ground. If it is justice that you want, be smart about it.",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" I have always found that to be the purest of motivations, but you won't have a chance to put your sword through Stannis, not today. You'll be cut to pieces before he sets foot on solid ground. If it is justice that you want, be smart about it.",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  You can't avenge him from the grave. Bring the horses. Please.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 MARGAERY moves to LORAS's side and caresses his hair. LORAS stands with a grimace. He picks up his sword and leaves. MARGAERY looks upon RENLY's corpse,,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  He was very handsome.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
-" He was, Your Grace.",LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+" He was, Your Grace.",Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 " ""Your Grace."" Calling yourself king doesn't make you one. And if Renly wasn't a king, I wasn't a queen.",MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
- Do you want to be a queen?,LITTLEFINGER,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
+ Do you want to be a queen?,Petyr Baelish,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
  No. I want to be the queen.,MARGAERY,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 "MARGAERY turns and faces LITTLEFINGER, resolute.",,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
 EXT. KING'S LANDING,,e5-The Ghost Of Harrenhal,season-02,Game-of-Thrones
@@ -7743,42 +7743,42 @@ There is a knock on the door and a kings guard enters.,,e6-The Old Gods and the 
 The war councils leaves.,,e6-The Old Gods and the New,season-02,Game-of-Thrones
  (to Arya) Clear all this.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
 LITTLEFINGER enters.,,e6-The Old Gods and the New,season-02,Game-of-Thrones
- Lord Tywin.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ Lord Tywin.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  (not amused) Baelish.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
 ARYA continues to clear the table.,,e6-The Old Gods and the New,season-02,Game-of-Thrones
   Wine?,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- Thank you.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ Thank you.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "They sit at the table. ARYA takes a deep breath, for she does not want LITTLEFINGER to recognize her, while she must also attend to TYWIN without raising his suspicions.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
  What news from the capital?,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- I traveled here directly from Renly Baratheon's camp.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ I traveled here directly from Renly Baratheon's camp.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 " Ah, the late King Renly. Rather a short reign. Murdered by a woman, I hear.",TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- So they say. There has been talk of other forces at work. Dark forces.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ So they say. There has been talk of other forces at work. Dark forces.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "ARYA serves wine to LITTLEFINGER, who raises his glass to his lips. ARYA tries to walk away from the table, but TYWIN stops her, and hands her more to clear.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
  Here. Men love to blame demons when their grand plans unravel.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- It is my belief that a moment of chaos affords opportunities lost soon after.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ It is my belief that a moment of chaos affords opportunities lost soon after.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 " You say that as if you were the first man alive to think it. Yes, a crisis is an opportunity. What other brilliant insights have you brought me today?",TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "  Yes, yes, yes.",TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- The Tyrells have not yet declared for any of the surviving kings. Loras wants revenge. He blames Stannis for Renly's death. And Margaery,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ The Tyrells have not yet declared for any of the surviving kings. Loras wants revenge. He blames Stannis for Renly's death. And Margaery,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  Wants to be queen.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
-" Yes, she does.",LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+" Yes, she does.",Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  House Tyrell rebelled against the Iron Throne. Against my grandson.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
-" They did. And perhaps that treason should be punished one day, after Stannis and Robb Stark are defeated.",LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+" They did. And perhaps that treason should be punished one day, after Stannis and Robb Stark are defeated.",Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  (to Arya) More wine for Lord Baelish.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
 ARYA continues to move so that LITTLEFINGER cannot see her face clearly.,,e6-The Old Gods and the New,season-02,Game-of-Thrones
-" If you will allow me to represent your family's interests, I believe that an advantageous agreement TYWIN: The Tyrell host has returned to Highgarden?",LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
- They have.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+" If you will allow me to represent your family's interests, I believe that an advantageous agreement TYWIN: The Tyrell host has returned to Highgarden?",Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ They have.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "ARYA spills some wine, and tries to mop it up in a panic.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
 " Pardon, my lord.",ARYA,e6-The Old Gods and the New,season-02,Game-of-Thrones
-  It's only wine.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+  It's only wine.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "LITTLEFINGER tries to look at ARYA's face, but TYWIN pulls his attention away.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
  You would ride there yourself?,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
-" Tonight, with your leave.",LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+" Tonight, with your leave.",Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "  I'll have an answer by nightfall. That'll be all, girl.",TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "ARYA steps away from the table, but continues to listen as she walks away.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
  And what else?,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
-" On your son Tyrion's directive, I met with Catelyn Stark.",LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+" On your son Tyrion's directive, I met with Catelyn Stark.",Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  Why?,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
- He had an interesting proposal for her concerning her daughters.,LITTLEFINGER,e6-The Old Gods and the New,season-02,Game-of-Thrones
+ He had an interesting proposal for her concerning her daughters.,Petyr Baelish,e6-The Old Gods and the New,season-02,Game-of-Thrones
  Hmm.,TYWIN,e6-The Old Gods and the New,season-02,Game-of-Thrones
  NORTH OF THE WALL.,EXT,e6-The Old Gods and the New,season-02,Game-of-Thrones
 "JON, QHORIN and the party of Night's Watchmen creep among rocks and snow of a mountaintop, stalking a wildling camp by a fire. The wildlings, tending to their duties. QHORIN signals and one of the Night's Watchmen lets loose an arrow, striking a wildling in the chest. A short skirmish ensues. JON grapples a hooded wildling into submission, after preventing her from grabbing a weapon. Her hood falls away to reveal YGRITTE, panting. JON is shocked.",,e6-The Old Gods and the New,season-02,Game-of-Thrones
@@ -10128,17 +10128,17 @@ Sansa and Shea sit on a dock.,,e1-Valar Dohaeris,season-03,Game-of-Thrones
 Littlefinger and Ros walk onto the dock.,,e1-Valar Dohaeris,season-03,Game-of-Thrones
  Because the truth is always either terrible or boring.,SANSA,e1-Valar Dohaeris,season-03,Game-of-Thrones
 Littlefinger approaches.,,e1-Valar Dohaeris,season-03,Game-of-Thrones
- Lovely day for it. Watching the ships.,LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+ Lovely day for it. Watching the ships.,Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
  Lord Baelish.,SANSA,e1-Valar Dohaeris,season-03,Game-of-Thrones
- Might I speak with Lady Sansa alone for a moment?,LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+ Might I speak with Lady Sansa alone for a moment?,Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
 "Shae looks to Sansa, then stands and walks back to Ros.",,e1-Valar Dohaeris,season-03,Game-of-Thrones
- I saw your mother not long ago. She's very eager to see you. And your sister.,LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+ I saw your mother not long ago. She's very eager to see you. And your sister.,Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
  Arya's alive? You said you'd take me home.,SANSA,e1-Valar Dohaeris,season-03,Game-of-Thrones
- You said King's Landing was your home. You are the property of the crown. Stealing you would be treason. If you were to tell just one person ...,LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+ You said King's Landing was your home. You are the property of the crown. Stealing you would be treason. If you were to tell just one person ...,Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
  I won't tell anyone.,SANSA,e1-Valar Dohaeris,season-03,Game-of-Thrones
- How do I know?,LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+ How do I know?,Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
 " Because I'm a terrible liar. You said so yourself. Please, Lord Baelish. Tell me what to do. Tell me when.",SANSA,e1-Valar Dohaeris,season-03,Game-of-Thrones
-" I'm waiting for word on an assignment that will take me far away from the capital. When I set sail, I might be able to take you with me. But you'll need to be ready to leave on a moment's notice.",LITTLEFINGER,e1-Valar Dohaeris,season-03,Game-of-Thrones
+" I'm waiting for word on an assignment that will take me far away from the capital. When I set sail, I might be able to take you with me. But you'll need to be ready to leave on a moment's notice.",Petyr Baelish,e1-Valar Dohaeris,season-03,Game-of-Thrones
 "Further back on the dock, Ros approaches Shae",,e1-Valar Dohaeris,season-03,Game-of-Thrones
  You're her handmaiden?,ROS,e1-Valar Dohaeris,season-03,Game-of-Thrones
  Yes. And you're his...?,SHAE,e1-Valar Dohaeris,season-03,Game-of-Thrones
@@ -11609,9 +11609,9 @@ No one answers.,,e3-Walk of Punishment,season-03,Game-of-Thrones
 "  Try harder. What do we have, then?",TYWIN,e3-Walk of Punishment,season-03,Game-of-Thrones
 " Robb Stark and most of his bannermen are in Riverrun for the funeral of his grandfather Lord Hoster Tully. In Stark's absence, Roose Bolton holds Harrenhal, which would seem to make him Lord of Harrenhal, in practice if not in name.",VARYS,e3-Walk of Punishment,season-03,Game-of-Thrones
 "  Well, let him have it. The name suits our purposes far more than that useless pile of rubble. The Lord of Harrenhal will make a worthy suitor for the widow Arryn.",TYWIN,e3-Walk of Punishment,season-03,Game-of-Thrones
-" For which I am extremely grateful to you, my lord.  Lady Arryn and I have known each other since we were children. She has always been positively predisposed toward me.",LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+" For which I am extremely grateful to you, my lord.  Lady Arryn and I have known each other since we were children. She has always been positively predisposed toward me.",Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  A successful courtship would make Lord Baelish acting Lord of the Vale.,PYCELLE,e3-Walk of Punishment,season-03,Game-of-Thrones
- Titles do seem to breed titles.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ Titles do seem to breed titles.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  You'll leave for the Eyrie as soon as possible and bring Lysa Arryn into the fold. Then the young wolf can add his own aunt to the list of people who have taken up arms against him.,TYWIN,e3-Walk of Punishment,season-03,Game-of-Thrones
 " Far be it from me to hinder true love, but Lord Baelish's absence would present certain problems. The royal wedding may end up being the most expensive event in living memory. Summer has ended, hard days lie ahead. Not a good time to leave the crown's finances unattended.",TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
  Fully agreed. Which is why I'm naming you new Master of Coin.,TYWIN,e3-Walk of Punishment,season-03,Game-of-Thrones
@@ -11897,30 +11897,30 @@ JORAH and BARRISTAN nod. DAENERYS walks away and joins MISSANDEI,,e3-Walk of Pun
  Littlefinger's brothel.,INT,e3-Walk of Punishment,season-03,Game-of-Thrones
 ROS kneels at a hidden compartment in the floor. She hands PODRICK a series of ledgers. He admires her assets. She notices.,,e3-Walk of Punishment,season-03,Game-of-Thrones
  A surprising place to keep the royal ledgers.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
- I'm surprised you're surprised. This is the safest place in the city.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ I'm surprised you're surprised. This is the safest place in the city.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  Not for bastards.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
 " That's all of them, my lord.",ROS,e3-Walk of Punishment,season-03,Game-of-Thrones
-" Thank you, my dear.",LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+" Thank you, my dear.",Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  Pod. Pod. Take them outside. I'll be there in a moment.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
 "  Yes, my lord.",PODRICK,e3-Walk of Punishment,season-03,Game-of-Thrones
 PODRICK wheels the ledges away in a cart. ROS exits as well.,,e3-Walk of Punishment,season-03,Game-of-Thrones
- I hear you owe that boy a significant debt.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ I hear you owe that boy a significant debt.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
 " Only my life. Not all that significant, I'm afraid.",TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
- You should have him knighted.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ You should have him knighted.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  If only the Master of Coin had such power.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
- If only. I owe you a significant debt. Our redheaded friend. You secured her release when the queen detained her.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ If only. I owe you a significant debt. Our redheaded friend. You secured her release when the queen detained her.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
 " Oh, that. Of course. A simple misunderstanding.",TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
-" Apparently, Her Grace believed that you two had some sort of special relationship.",LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+" Apparently, Her Grace believed that you two had some sort of special relationship.",Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  We don't. I did fuck her once.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
-  I know.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+  I know.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
   But we don't.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
- I know. But how would the queen get that idea?,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ I know. But how would the queen get that idea?,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  Why don't you ask her? Any advice for me on my new position?,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
- Keep a low profile.,LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+ Keep a low profile.,Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
 " If I had a gold dragon for every time I heard that joke, I'd be richer than you are.",TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
-" Well, you are richer than I am.",LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+" Well, you are richer than I am.",Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
  Good point.,TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
-" They're only numbers. Numbers on paper. Once you understand that, it's easy to make them behave. Trivial even. You want a real challenge? Try whores.",LITTLEFINGER,e3-Walk of Punishment,season-03,Game-of-Thrones
+" They're only numbers. Numbers on paper. Once you understand that, it's easy to make them behave. Trivial even. You want a real challenge? Try whores.",Petyr Baelish,e3-Walk of Punishment,season-03,Game-of-Thrones
 " I've tried quite a few. Well, lots of work to do. Enjoy the Eyrie.",TYRION,e3-Walk of Punishment,season-03,Game-of-Thrones
  The hallway outside Littlefinger's chambers.,CUT TO,e3-Walk of Punishment,season-03,Game-of-Thrones
 "TYRION walks into the hall. BRONN is chatting with a prostitute, and PODRICK stands by his wagon.",,e3-Walk of Punishment,season-03,Game-of-Thrones
@@ -12735,18 +12735,18 @@ QYBURN straps and buckles JAIME's arm to staunch the bleeding. JAIME suffers and
  KIng's Landing.,EXT,e5-Kissed by Fire,season-03,Game-of-Thrones
 "LITTLEFINGER walks into a courtyard, where CERSEI awaits.",,e5-Kissed by Fire,season-03,Game-of-Thrones
  Lord Baelish.,CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
- Your Grace.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ Your Grace.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  I wonder if I might ask you for a favor.,CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
 She walks with him.,,e5-Kissed by Fire,season-03,Game-of-Thrones
-" Of course, Your Grace.",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" Of course, Your Grace.",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  I have reason to believe that House Tyrell do not hold the crown's best interests at heart.,CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
- I see. And have you shared these suspicions with Lord Tywin?,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ I see. And have you shared these suspicions with Lord Tywin?,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  My father's a practical man. He appreciates facts.,CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
-" Myself, I often find them a hindrance.",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" Myself, I often find them a hindrance.",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 " And he appreciates those who aid his family, as you well know. He's almost as generous to those who help us as he is unpleasant towards those who don't. You have a good working relationship with the Tyrells. I thought you might look into it before you leave the capital.",CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
- I shall do my best.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ I shall do my best.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  Thank you. And your best will prove better than when I asked you to locate Arya Stark?,CERSEI,e5-Kissed by Fire,season-03,Game-of-Thrones
- I assure you that it will.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ I assure you that it will.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 CERSEI exits.,,e5-Kissed by Fire,season-03,Game-of-Thrones
 " King's Landing, Tyrion's chambers.",INT,e5-Kissed by Fire,season-03,Game-of-Thrones
 Podrick pours wine for Tyrion and Olenna.,,e5-Kissed by Fire,season-03,Game-of-Thrones
@@ -13089,28 +13089,28 @@ LORAS approaches behind him.,,e5-Kissed by Fire,season-03,Game-of-Thrones
  With the husbands.,OLYVAR,e5-Kissed by Fire,season-03,Game-of-Thrones
 They embrace and return to bed.,,e5-Kissed by Fire,season-03,Game-of-Thrones
  Littlefinger's Chambers,INT,e5-Kissed by Fire,season-03,Game-of-Thrones
- That didn't take long.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ That didn't take long.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 " Well, it took long enough. It seems our Knight of Flowers is engaged to be wed.",OLYVAR,e5-Kissed by Fire,season-03,Game-of-Thrones
- Is he? And who's the lucky girl?,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ Is he? And who's the lucky girl?,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  King's Landing shoreline overlook.,EXT,e5-Kissed by Fire,season-03,Game-of-Thrones
 SANSA look out at a sailing ship in the bay.,,e5-Kissed by Fire,season-03,Game-of-Thrones
-" She may not be the grandest ship in the world or the fastest, but she's mine. I've always wanted a ship. Now I want a dozen. Strange, isn't it?",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" She may not be the grandest ship in the world or the fastest, but she's mine. I've always wanted a ship. Now I want a dozen. Strange, isn't it?",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  What is?,SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
-" It doesn't matter what we want, once we get it, then we want something else. Your hair is different.",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" It doesn't matter what we want, once we get it, then we want something else. Your hair is different.",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  Is it?,SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
- Lady Margaery wears it that way.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ Lady Margaery wears it that way.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  Many ladies wear it this way.,SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
- I have good news. I'll be leaving the city soon.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ I have good news. I'll be leaving the city soon.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  You still want me to come with you?,SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
-" It's not a question of what I want. It's what you want. You want to go home, don't you?",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" It's not a question of what I want. It's what you want. You want to go home, don't you?",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 " Of course. More than anything. But maybe it would be better to wait. I've been thinking how dangerous it would be. Not just for me, but for you. You've been so kind. I'd feel terrible if anything happened to you. I can't tell you how touched I am by your concern for my welfare.",SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
-" I hope you know that I'm your friend, Sansa. Your true friend.",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" I hope you know that I'm your friend, Sansa. Your true friend.",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 " I do, Lord Baelish.",SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
- Petyr.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ Petyr.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
  Petyr.,SANSA,e5-Kissed by Fire,season-03,Game-of-Thrones
-" If you wish to stay, then of course you will stay.",LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+" If you wish to stay, then of course you will stay.",Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 LITTLEFINGER kisses her hand.,,e5-Kissed by Fire,season-03,Game-of-Thrones
- We'll speak again when I return.,LITTLEFINGER,e5-Kissed by Fire,season-03,Game-of-Thrones
+ We'll speak again when I return.,Petyr Baelish,e5-Kissed by Fire,season-03,Game-of-Thrones
 LITTLEFINGER exits.,,e5-Kissed by Fire,season-03,Game-of-Thrones
  Tywin's chambers,INT,e5-Kissed by Fire,season-03,Game-of-Thrones
 "TYRION enters, carrying a large tome. He spies CERSEI and pauses.",,e5-Kissed by Fire,season-03,Game-of-Thrones
@@ -13595,21 +13595,21 @@ TYRION closes the door.,,e6-The Climb,season-03,Game-of-Thrones
  The Throne Room,INT,e6-The Climb,season-03,Game-of-Thrones
 VARYS and LITTLEFINGER look at the Iron Throne.,,e6-The Climb,season-03,Game-of-Thrones
 " 1000 blades taken from the hands of Aegon's fallen enemies, forged in the fiery breath of Balerion the Dread.",VARYS,e6-The Climb,season-03,Game-of-Thrones
- There aren't There aren't even 200. I've counted.,LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+ There aren't There aren't even 200. I've counted.,Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
 " Ha, I'm sure you have. Ugly old thing. Yet it has a certain appeal. The Lysa Arryn of chairs. Shame you had to settle for your second choice.",VARYS,e6-The Climb,season-03,Game-of-Thrones
-" Early days, my friend. It is flattering, really you feeling such dread at the prospect of me getting what I want.",LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+" Early days, my friend. It is flattering, really you feeling such dread at the prospect of me getting what I want.",Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
 " Thwarting you has never been my primary ambition, I promise you. Although who doesn't like to see their friends fail now and then?",VARYS,e6-The Climb,season-03,Game-of-Thrones
-" You're so right. For instance, when I thwarted your plan to give Sansa Stark to the Tyrells. If I'm going to be honest, I did feel an unmistakable sense of enjoyment there. But your confidant, the one who fed you information about my plans, the one you swore to protect, you didn't bring her any enjoyment. And she didn't bring me any enjoyment. She was a bad investment on my part. Luckily, I have a friend who wanted to try something new. Something daring. And he was so grateful to me for providing this fresh experience.",LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+" You're so right. For instance, when I thwarted your plan to give Sansa Stark to the Tyrells. If I'm going to be honest, I did feel an unmistakable sense of enjoyment there. But your confidant, the one who fed you information about my plans, the one you swore to protect, you didn't bring her any enjoyment. And she didn't bring me any enjoyment. She was a bad investment on my part. Luckily, I have a friend who wanted to try something new. Something daring. And he was so grateful to me for providing this fresh experience.",Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
  I did what I did for the good of the realm.,VARYS,e6-The Climb,season-03,Game-of-Thrones
- The realm? Do you know what the realm is? It's the thousand blades of Aegon's enemies. A story we agree to tell each other over and over till we forget that it's a lie.,LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+ The realm? Do you know what the realm is? It's the thousand blades of Aegon's enemies. A story we agree to tell each other over and over till we forget that it's a lie.,Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
  But what do we have left once we abandon the lie? Chaos. A gaping pit waiting to swallow us all.,VARYS,e6-The Climb,season-03,Game-of-Thrones
- Chaos isn't a pit. Chaos is a ladder.,LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+ Chaos isn't a pit. Chaos is a ladder.,Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
  Joffrey Baratheon's chambers,CUT TO,e6-The Climb,season-03,Game-of-Thrones
 "Joffrey Baratheon sits pensively with his crossbow. He stands and walks out, past the bloodied corpse of Ros. Her hands are tied above her head, and she is pierced by multiple crossbow bolts.",,e6-The Climb,season-03,Game-of-Thrones
- (voice over) Many who try to climb it fail and never get to try again. The fall breaks them.,LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+ (voice over) Many who try to climb it fail and never get to try again. The fall breaks them.,Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
  King's Landing Garden,CUT TO,e6-The Climb,season-03,Game-of-Thrones
 "Sansa and Shae watch a boat sail away from King's Landing. Sansa weeps hopelessly. Shae is sad, but resolute.",,e6-The Climb,season-03,Game-of-Thrones
-" (voice over) And some are given a chance to climb, but they refuse. They cling to the realm or the gods or love. Illusions. Only the ladder is real. The climb is all there is.",LITTLEFINGER,e6-The Climb,season-03,Game-of-Thrones
+" (voice over) And some are given a chance to climb, but they refuse. They cling to the realm or the gods or love. Illusions. Only the ladder is real. The climb is all there is.",Petyr Baelish,e6-The Climb,season-03,Game-of-Thrones
  The top of the Wall,EXT,e6-The Climb,season-03,Game-of-Thrones
 "YGRITTE pulls herself over the lip of the wall, exhausted. TORMUND and ORELL have already crested. TORMUND pulls up more supplies while ORELL looks through their provisions. YGRITTE doesn't have the strength to stand. JON pulls himself up as well, and collapses beside her. Above them, the sun breaks through the clouds. YGRITTE and JON prop themselves up and look across the northlands. It is beautiful. JON stands and helps YGRITTE up. The sun lights up the wall. JON leads YGRITTE to look at the southern side of the wall. The land is green and lush. They embrace and kiss.",,e6-The Climb,season-03,Game-of-Thrones
  The North,EXT,e7-The Bear and the Maiden Fair,season-03,Game-of-Thrones
@@ -16750,31 +16750,31 @@ Sansa climbs the latter.,,e3-Breaker of Chains,season-04,Game-of-Thrones
 "EXT. LITTLEFINGER'S SHIP, MOMENTS LATER",,e3-Breaker of Chains,season-04,Game-of-Thrones
 "She climbs up a ladder on the side of the ship, as she reaches the top someone grabs her. She gasps before realizing who it is.",,e3-Breaker of Chains,season-04,Game-of-Thrones
  Lord Baelish?,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Petyr... Are you hurt, my lady?",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Petyr... Are you hurt, my lady?",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  (shakes her head.),SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
- Good. Good. I'm sure you've had quite a fright. Rest easy. The worst is past.  Ser Dontos shouts up from his boat.,LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+ Good. Good. I'm sure you've had quite a fright. Rest easy. The worst is past.  Ser Dontos shouts up from his boat.,Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  Lord Baelish. I promised I'd get her to you safely.,SER DONTOS,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Softly, my friend... Voices carry over water.",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Softly, my friend... Voices carry over water.",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
 " I should get back before someone thinks to look for me.  LITTLEFINGER First you'll want your pay. 10,000 was it?",SER DONTOS,e3-Breaker of Chains,season-04,Game-of-Thrones
 "10,000.00",SER DONTOS,e3-Breaker of Chains,season-04,Game-of-Thrones
 Littlefinger clicks his finger and two men with crossbows walk to the edge of the ship. They aim at Ser Dontos.,,e3-Breaker of Chains,season-04,Game-of-Thrones
  Wait!,SER DONTOS,e3-Breaker of Chains,season-04,Game-of-Thrones
 "Both men shoot at Ser Dontos, he groans in pain before lying dead. Sansa screams and Littlefinger hushes her.",,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Shh. You don't want the queen to hear, do you? 1,000 gold cloaks are searching for you. And if they found you, how do you think they would punish the girl who murdered the king?",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Shh. You don't want the queen to hear, do you? 1,000 gold cloaks are searching for you. And if they found you, how do you think they would punish the girl who murdered the king?",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  I didn't murder anyone.,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
-" I know. I know. But you must admit it looks suspicious. The king who executed your father, who tormented you for years, and you fled the scene of his murder.",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" I know. I know. But you must admit it looks suspicious. The king who executed your father, who tormented you for years, and you fled the scene of his murder.",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
 Sansa glances back to Ser Dontos' body.,,e3-Breaker of Chains,season-04,Game-of-Thrones
  Why did you kill him?,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
- Because he was a drunk and a fool and I don't trust drunk fools.,LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+ Because he was a drunk and a fool and I don't trust drunk fools.,Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  He saved me.,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Saved you? My lady, he followed my orders. Every one of them. And he did it all for gold. Money buys a man's silence for a time. A bolt in the heart buys it forever.",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Saved you? My lady, he followed my orders. Every one of them. And he did it all for gold. Money buys a man's silence for a time. A bolt in the heart buys it forever.",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  He was helping me because I saved his life.,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Yes, and he gave you a priceless necklace that once belonged to his grandmother. The last legacy of House Hollard.",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Yes, and he gave you a priceless necklace that once belonged to his grandmother. The last legacy of House Hollard.",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
 "Littlefinger removes the necklace from around Sansa's neck and places it on the edge of the ship. He pull out a knife and hits one of the ""crystals"" and it smashes like glass. Sansa, confused, studies him.",,e3-Breaker of Chains,season-04,Game-of-Thrones
- I had it made a few weeks ago. What did I once tell you about the capital?,LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+ I had it made a few weeks ago. What did I once tell you about the capital?,Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
  We're all liars here.,SANSA,e3-Breaker of Chains,season-04,Game-of-Thrones
 Littlefinger pushes the necklace off the edge of the boat and it lands directly on Ser Dontos' lifeless body.,,e3-Breaker of Chains,season-04,Game-of-Thrones
-" Come, my lady. I know you've had a difficult day. But you're safe now. I promise you that. You're safe with me and sailing home.",LITTLEFINGER,e3-Breaker of Chains,season-04,Game-of-Thrones
+" Come, my lady. I know you've had a difficult day. But you're safe now. I promise you that. You're safe with me and sailing home.",Petyr Baelish,e3-Breaker of Chains,season-04,Game-of-Thrones
 Margaery Tyrell sits at the table with Olenna Tyrell.,,e3-Breaker of Chains,season-04,Game-of-Thrones
  So am I the queen?,MARGAERY,e3-Breaker of Chains,season-04,Game-of-Thrones
 " More than you were with Renly. Less than you would have been if Joffrey Baratheon had done you the courtesy of consummating the marriage before dying. In any case, this would not be an opportune moment to press the issue.",OLENNA,e3-Breaker of Chains,season-04,Game-of-Thrones
@@ -17363,27 +17363,27 @@ JAIME and TYRION sit in the cell.,,e4-Oathkeeper,season-04,Game-of-Thrones
 INT. Littlefinger's ship.,,e4-Oathkeeper,season-04,Game-of-Thrones
 SANSA looks out on the ocean. Littlefinger enters.,,e4-Oathkeeper,season-04,Game-of-Thrones
  Where are you taking me?,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- I'm getting married to your Aunt Lysa. She's waiting for us at the Eyrie. You'll be safe there.,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ I'm getting married to your Aunt Lysa. She's waiting for us at the Eyrie. You'll be safe there.,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  Did you kill Joffrey Baratheon?,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
-Did I kill Joffrey Baratheon? I've been in the Vale for weeks.,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+Did I kill Joffrey Baratheon? I've been in the Vale for weeks.,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  I know it was you.,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- And who helped me with this conspiracy?,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ And who helped me with this conspiracy?,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
 " Well, there was Ser Dontos. You used him to get me out of King's Landing, but you would never trust him to kill the king.",SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- Why not?,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ Why not?,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  Because you're too smart to trust a drunk.,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- Then perhaps it was your husband.,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ Then perhaps it was your husband.,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  No.,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- How do you know?,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ How do you know?,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  I just do.,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- You're right. He wasn't involvedi n Joffrey Baratheon's death. But you were. Do you remember that lovely necklace Dontos gave you? I don't suppose you noticed that a stone was missing after the feast.,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ You're right. He wasn't involvedi n Joffrey Baratheon's death. But you were. Do you remember that lovely necklace Dontos gave you? I don't suppose you noticed that a stone was missing after the feast.,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
 " The poison. I don't understand. The Lannisters gave you wealth, power. Joffrey Baratheon made you the Lord of Harrenhal.",SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
-" A man with no motive is a man no one suspects. Always keep your foes confused. If they don't know who you are or what you want, they can't know what you plan to do next.",LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+" A man with no motive is a man no one suspects. Always keep your foes confused. If they don't know who you are or what you want, they can't know what you plan to do next.",Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
 " I don't believe you. If they catch you, they'll put your head on a spike just like my father's. You'd risk that just to confuse them?",SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
- So many men they risk so little. They spend their lives avoiding danger. And then they die. I'd risk everything to get what I want.,LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+ So many men they risk so little. They spend their lives avoiding danger. And then they die. I'd risk everything to get what I want.,Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  And what do you want?,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
-" Everything. My friendship with the Lannisters was productive. But Joffrey Baratheon, a vicious boy with a crown on his head, is not a reliable ally. And who could trust a friend like that?",LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+" Everything. My friendship with the Lannisters was productive. But Joffrey Baratheon, a vicious boy with a crown on his head, is not a reliable ally. And who could trust a friend like that?",Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
  Who could trust you?,SANSA,e4-Oathkeeper,season-04,Game-of-Thrones
-" I don't want friends like me. My new friends are predictable. Very reasonable people. As for what happened to Joffrey Baratheon, well, that was something my new friends wanted very badly. Nothing like a thoughtful gift to make a new friendship grow strong.",LITTLEFINGER,e4-Oathkeeper,season-04,Game-of-Thrones
+" I don't want friends like me. My new friends are predictable. Very reasonable people. As for what happened to Joffrey Baratheon, well, that was something my new friends wanted very badly. Nothing like a thoughtful gift to make a new friendship grow strong.",Petyr Baelish,e4-Oathkeeper,season-04,Game-of-Thrones
 EXT. King's Landing garden,,e4-Oathkeeper,season-04,Game-of-Thrones
 OLENNA and MARGAERY stroll arm-in-arm in the garden.,,e4-Oathkeeper,season-04,Game-of-Thrones
  I can't believe you're going. Leaving me alone here with these people.,MARGAERY,e4-Oathkeeper,season-04,Game-of-Thrones
@@ -17742,14 +17742,14 @@ JORAH stands.,,e5-First of His Name,season-04,Game-of-Thrones
 DAENERYS walks to the balcony.,,e5-First of His Name,season-04,Game-of-Thrones
 EXT.  Outside the Aerie.,,e5-First of His Name,season-04,Game-of-Thrones
 SANSA and LITTLEFINGER approach the Aerie.,,e5-First of His Name,season-04,Game-of-Thrones
- Pull up your hood. A memorable shade.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Pull up your hood. A memorable shade.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  But how would they know?,SANSA,e5-First of His Name,season-04,Game-of-Thrones
- You know what kind of stories poor men enjoy the most? Ones about rich girls they'll never meet.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ You know what kind of stories poor men enjoy the most? Ones about rich girls they'll never meet.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 SANSA puts up her hood.,,e5-First of His Name,season-04,Game-of-Thrones
  Is this the only way into the Eyrie?,SANSA,e5-First of His Name,season-04,Game-of-Thrones
-" The mountains are impassable. If you want to get to the Eyrie, you need to go through the Bloody Gate. It doesn't matter how large your army is, if you attack this gate, you do it on this road, three men abreast and get slaughtered like goats. The first Lords of the Vale didn't have much, but they had these mountains and they knew how to use them. And the fortress they built here has never been overcome. Not once in 1,000 years. Know your strengths, use them wisely, and one man can be worth 10,000.",LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+" The mountains are impassable. If you want to get to the Eyrie, you need to go through the Bloody Gate. It doesn't matter how large your army is, if you attack this gate, you do it on this road, three men abreast and get slaughtered like goats. The first Lords of the Vale didn't have much, but they had these mountains and they knew how to use them. And the fortress they built here has never been overcome. Not once in 1,000 years. Know your strengths, use them wisely, and one man can be worth 10,000.",Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  Who would pass the Bloody Gate?,KNIGHT,e5-First of His Name,season-04,Game-of-Thrones
- Lord Petyr Baelish and his niece Alayne.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Lord Petyr Baelish and his niece Alayne.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  Stand to.,KNIGHT,e5-First of His Name,season-04,Game-of-Thrones
  Stand to!,KNIGHT #2,e5-First of His Name,season-04,Game-of-Thrones
  Stand to!,KNIGHT #3,e5-First of His Name,season-04,Game-of-Thrones
@@ -17758,12 +17758,12 @@ SANSA puts up her hood.,,e5-First of His Name,season-04,Game-of-Thrones
  The Aerie throne room.,CUT TO,e5-First of His Name,season-04,Game-of-Thrones
 ROBIN sits on LYSA's lap on the throne. A door opens and LITTLEFINGER and SANSA enter. ROBIN runs down to greet him.,,e5-First of His Name,season-04,Game-of-Thrones
  Uncle Petyr!,ROBIN,e5-First of His Name,season-04,Game-of-Thrones
- My lord.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ My lord.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 They embace.,,e5-First of His Name,season-04,Game-of-Thrones
- Oh. I have brought you a gift.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Oh. I have brought you a gift.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 LITTLEFINGER gives ROBIN a glass bird.,,e5-First of His Name,season-04,Game-of-Thrones
  Lord Baelish.,LYSA,e5-First of His Name,season-04,Game-of-Thrones
- My lady.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ My lady.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  Look what Uncle Petyr brought me.,ROBIN,e5-First of His Name,season-04,Game-of-Thrones
 LYSA descends to greet her visitors.,,e5-First of His Name,season-04,Game-of-Thrones
  A beautiful gift for a beautiful boy.,LYSA,e5-First of His Name,season-04,Game-of-Thrones
@@ -17790,25 +17790,25 @@ He drops the glass bird through the moon door.,,e5-First of His Name,season-04,G
 " Good. Robin, this is your cousin Sansa. But you're not to call her Sansa in front of anyone but Uncle Petyr and myself. Do you understand? Sansa, this is my son Robin.",LYSA,e5-First of His Name,season-04,Game-of-Thrones
 " It's a pleasure to meet you, Robin.",SANSA,e5-First of His Name,season-04,Game-of-Thrones
 " Robin, show Sansa to her chamber. Take the back stairs.",LYSA,e5-First of His Name,season-04,Game-of-Thrones
- Go. We'll speak soon.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Go. We'll speak soon.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 ROBIN leads SANSA out by the hand. LYSA kisses LITTLEFINGER hungrily.,,e5-First of His Name,season-04,Game-of-Thrones
  What took you so long?,LYSA,e5-First of His Name,season-04,Game-of-Thrones
-" Arranging for the ascension of King Tommen I, extricating Sansa, getting her here alive.",LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+" Arranging for the ascension of King Tommen I, extricating Sansa, getting her here alive.",Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  She's here. We've spent more than enough time on her for one evening.,LYSA,e5-First of His Name,season-04,Game-of-Thrones
 She kissed him.,,e5-First of His Name,season-04,Game-of-Thrones
  Let's get married tonight.,LYSA,e5-First of His Name,season-04,Game-of-Thrones
- Ought we not... inform the Lords of the Vale about the ceremony?,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Ought we not... inform the Lords of the Vale about the ceremony?,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 " There's only one Lord of the Vale. The others can all hang. Lurking and simpering on the stairs like buzzards the moment my husband died, trying to get their claws in me.",LYSA,e5-First of His Name,season-04,Game-of-Thrones
- I do think that we could wait until...,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ I do think that we could wait until...,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 " I'm done waiting, Petyr. We had our wedding night many years ago. Or don't you remember?",LYSA,e5-First of His Name,season-04,Game-of-Thrones
- Like it was yesterday.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ Like it was yesterday.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 " What wife would do for you the things I've done for you? What wife would trust you the way I've trusted you? When you gave me those drops and told me to pour them into Jon's wine, my husband's wine... when you told me to write a letter to Cat telling her it was the Lannisters...",LYSA,e5-First of His Name,season-04,Game-of-Thrones
 LITTLEFINGER kisses LYSA passionately to quiet her. She moans.,,e5-First of His Name,season-04,Game-of-Thrones
- The deed is done. Faded into nothing. Only speaking of it can make it real.,LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+ The deed is done. Faded into nothing. Only speaking of it can make it real.,Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  (nods),LYSA,e5-First of His Name,season-04,Game-of-Thrones
-"  Tonight it is, then.",LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+"  Tonight it is, then.",Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
  (LAUGHS),LYSA,e5-First of His Name,season-04,Game-of-Thrones
-"  Let me bathe and dress for the occasion. Once I'm presentable, I'll call on the septon immediately.",LITTLEFINGER,e5-First of His Name,season-04,Game-of-Thrones
+"  Let me bathe and dress for the occasion. Once I'm presentable, I'll call on the septon immediately.",Petyr Baelish,e5-First of His Name,season-04,Game-of-Thrones
 LYSA opens the door and escorts in the septon.,,e5-First of His Name,season-04,Game-of-Thrones
 " I'm warning you. I'm going to scream when my husband makes love to me. I'm going to scream so loud, they'll hear me clear across the Narrow Sea.",LYSA,e5-First of His Name,season-04,Game-of-Thrones
 She kisses LITTLEFINGER,,e5-First of His Name,season-04,Game-of-Thrones
@@ -18576,7 +18576,7 @@ A bell tolls and JAIME exits. TYWIN drinks.  --,,e6-The Laws of God and Men,seas
  Ned Stark was promised the same thing and we both know how that turned out.,TYRIOM,e6-The Laws of God and Men,season-04,Game-of-Thrones
 CERSEI enters. She watches her brothers whispering.,,e6-The Laws of God and Men,season-04,Game-of-Thrones
  Father is not Joffrey Baratheon. He'll keep his word.,JAIME,e6-The Laws of God and Men,season-04,Game-of-Thrones
- How do you know?,YTRION,e6-The Laws of God and Men,season-04,Game-of-Thrones
+ How do you know?,TYRION,e6-The Laws of God and Men,season-04,Game-of-Thrones
 "TYWIN, OBERYN and MACE enter and the crowd stands.",,e6-The Laws of God and Men,season-04,Game-of-Thrones
  Do you trust me?,JAIME,e6-The Laws of God and Men,season-04,Game-of-Thrones
  (nods),TYRION,e6-The Laws of God and Men,season-04,Game-of-Thrones
@@ -19044,21 +19044,21 @@ SANSA walks out to the courtyard. It is snowing. She builds a model of Winterfel
 "ROBIN, in a tantrum, kicks and smashes the snow castle. Shocked, SANSA slaps him. ROBIN exits, sobbing.",,e7-Mockingbird,season-04,Game-of-Thrones
 " Robin, I'm sorry, I--",SANSA,e7-Mockingbird,season-04,Game-of-Thrones
 LITTLEFINGER enters.,,e7-Mockingbird,season-04,Game-of-Thrones
- Children.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ Children.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  I hit him.,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
-"  Yes, I saw.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+"  Yes, I saw.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  I shouldn't have done that.,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
-" No, his mother should have a long time ago. Consider it a step in the right direction.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" No, his mother should have a long time ago. Consider it a step in the right direction.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  If he tells Aunt Lysa...,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
- Let me worry about Aunt Lysa.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ Let me worry about Aunt Lysa.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  I was trying to remember what everything looked like. I'll never see it again.,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
-" A lot can happen between now and never. If you want to build a better home, first you must demolish the old one.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" A lot can happen between now and never. If you want to build a better home, first you must demolish the old one.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  Why did you really kill Joffrey Baratheon? Tell me why.,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
-" I loved your mother more than you could ever know. Given the opportunity, what do we do to those who've hurt the ones we love? In a better world, one where love could overcome strength and duty, you might have been my child. But we don't live in that world.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" I loved your mother more than you could ever know. Given the opportunity, what do we do to those who've hurt the ones we love? In a better world, one where love could overcome strength and duty, you might have been my child. But we don't live in that world.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
 LITTLEFINGER touches SANSA's hair.,,e7-Mockingbird,season-04,Game-of-Thrones
- You're more beautiful than she ever was.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ You're more beautiful than she ever was.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  Lord Baelish...,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
- Call me Petyr.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ Call me Petyr.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
 "LITTLEFINGER kisses SANSA. Above them, LYSA has been watching, and she exits quickly.",,e7-Mockingbird,season-04,Game-of-Thrones
 INT. The Aerie throne room.,,e7-Mockingbird,season-04,Game-of-Thrones
 SANSA enters. LYSA stands looking out the moon door.,,e7-Mockingbird,season-04,Game-of-Thrones
@@ -19079,15 +19079,15 @@ LYSA grabs SANSA's hair and forces her to lean over the moon door.,,e7-Mockingbi
 LYSA pushed SANSA onto her hands and knees.,,e7-Mockingbird,season-04,Game-of-Thrones
  Please!,SANSA,e7-Mockingbird,season-04,Game-of-Thrones
 " My father, my husband, my sister, they all stood between us and now they're all dead. That's what happens to people who stand between Petyr and me. Look down! Look down! Look down! Look down!",LYSA,e7-Mockingbird,season-04,Game-of-Thrones
- Lysa! Let her go.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ Lysa! Let her go.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  You want her? This empty-headed child?,LYSA,e7-Mockingbird,season-04,Game-of-Thrones
- Let her go.,LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+ Let her go.,Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
  She's just like her mother. She'll never love you. I lied for you. I killed for you. Why did you bring her here? Why?,LYSA,e7-Mockingbird,season-04,Game-of-Thrones
-" I'll send her away. I swear on my life. I swear to all the gods. Let her go, Lysa.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" I'll send her away. I swear on my life. I swear to all the gods. Let her go, Lysa.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
 LYSA cries. She pushes SANSA away from the moon door and begins weeping. LITTLEFINGER approaches her and hugs her.,,e7-Mockingbird,season-04,Game-of-Thrones
-" Oh, my sweet wife. My sweet, silly wife.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" Oh, my sweet wife. My sweet, silly wife.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
 LITTLEFINGER helps LYSA to stand.,,e7-Mockingbird,season-04,Game-of-Thrones
-" I have only loved one woman... only one, my entire life. Your sister.",LITTLEFINGER,e7-Mockingbird,season-04,Game-of-Thrones
+" I have only loved one woman... only one, my entire life. Your sister.",Petyr Baelish,e7-Mockingbird,season-04,Game-of-Thrones
 LITTLEFINGER pushes LYSA through the moon door. She screams as she falls.,,e7-Mockingbird,season-04,Game-of-Thrones
 "[Open to the dark, seedy town of Moles Town. Two men walk toward a brothel with smiles on their faces]",,e8-The Mountain and the Viper,season-04,Game-of-Thrones
  Here we are.,MAN 1,e8-The Mountain and the Viper,season-04,Game-of-Thrones
@@ -19455,7 +19455,7 @@ LITTLEFINGER pushes LYSA through the moon door. She screams as she falls.,,e7-Mo
 "[The Mountain trips Oberyn and grabs him in his massive hands. He punches out his teeth and gets on top of Oberyn, squeezing his head]",,e8-The Mountain and the Viper,season-04,Game-of-Thrones
  Elia Martell. I killed her children. Then I raped her. Then I smashed her head in like this!,MOUNTAIN,e8-The Mountain and the Viper,season-04,Game-of-Thrones
 [Ellaria screams in agony. Tyrion looks dead inside],,e8-The Mountain and the Viper,season-04,Game-of-Thrones
-" *standing up* The gods have made their will known. Tyrion Lannister, in the name of King Tommen of the House Baratheon, First of His Name, you are hereby sentenced to death.",TYWEN,e8-The Mountain and the Viper,season-04,Game-of-Thrones
+" *standing up* The gods have made their will known. Tyrion Lannister, in the name of King Tommen of the House Baratheon, First of His Name, you are hereby sentenced to death.",TYWIN,e8-The Mountain and the Viper,season-04,Game-of-Thrones
 [Opens on Jon Snow and Samwell Tarly standing on the edge of The Wall. It's night],,e9-The Watchers on the Wall,season-04,Game-of-Thrones
  What was she like?,SAM,e9-The Watchers on the Wall,season-04,Game-of-Thrones
  She...she had red hair.,JON,e9-The Watchers on the Wall,season-04,Game-of-Thrones
@@ -25515,41 +25515,41 @@ BRIENNE stares at MELISANDRE.,,e4,season-06,Game-of-Thrones
  Who did?,DAVOS,e4,season-06,Game-of-Thrones
  Stannis. Just before I executed him.,BRIENNE,e4,season-06,Game-of-Thrones
 BRIENNE walks away. MELISANDRE walks in the opposite direction. DAVOS stares at BRIENNE.,,e4,season-06,Game-of-Thrones
- The Defender of the Vale!,LITTLEFINGER (to ROBIN),e4,season-06,Game-of-Thrones
+ The Defender of the Vale!,Petyr Baelish (to ROBIN),e4,season-06,Game-of-Thrones
  Uncle Petyr!,ROBIN,e4,season-06,Game-of-Thrones
 ROBIN drops the bow and arrow and runs to LITTLEFINGER. They embrace.,,e4,season-06,Game-of-Thrones
- My lord. Come and see.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ My lord. Come and see.,Petyr Baelish,e4,season-06,Game-of-Thrones
 LITTLEFINGER ushers ROBIN to the rear of the carriage.,,e4,season-06,Game-of-Thrones
- I missed your name day. Go on.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ I missed your name day. Go on.,Petyr Baelish,e4,season-06,Game-of-Thrones
 "ROBIN and LITTLEFINGER pull a sheet from the back of the carriage, revealing a cage with a falcon inside. The falcon squawks. ROBIN gasps.",,e4,season-06,Game-of-Thrones
  A falcon!,ROBIN,e4,season-06,Game-of-Thrones
- A gyrfalcon. The greatest and rarest of birds.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ A gyrfalcon. The greatest and rarest of birds.,Petyr Baelish,e4,season-06,Game-of-Thrones
 " Last time I saw you, Baelish, you told me you were taking Sansa Stark home with you to the Fingers.",YOHN ROYCE,e4,season-06,Game-of-Thrones
- Indeed I was.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ Indeed I was.,Petyr Baelish,e4,season-06,Game-of-Thrones
 " And yet not long ago, we received reports that she has been married to Ramsay Bolton in Winterfell.",YOHN ROYCE,e4,season-06,Game-of-Thrones
-" On our way to the Fingers, we were set upon by a large force of Bolton men. Seemed to know exactly when we were traveling and exactly whom we were transporting.",LITTLEFINGER,e4,season-06,Game-of-Thrones
+" On our way to the Fingers, we were set upon by a large force of Bolton men. Seemed to know exactly when we were traveling and exactly whom we were transporting.",Petyr Baelish,e4,season-06,Game-of-Thrones
  Do you take me for a fool?,YOHN ROYCE,e4,season-06,Game-of-Thrones
-" Tell me, Lord Royce, how many people knew of my travel plans with Sansa Stark? I shared my intentions with you and no one else.",LITTLEFINGER,e4,season-06,Game-of-Thrones
+" Tell me, Lord Royce, how many people knew of my travel plans with Sansa Stark? I shared my intentions with you and no one else.",Petyr Baelish,e4,season-06,Game-of-Thrones
 The ensuing conversation momentarily distracts ROBIN from admiring the falcon. YOHN ROYCE approaches LITTLEFINGER slowly.,,e4,season-06,Game-of-Thrones
 " Slander a man in his own home, you might find yourself crossing swords with him.",YOHN ROYCE,e4,season-06,Game-of-Thrones
- Your home is the Vale. The Lord of the Vale stands before us. And only his judgment concerns me.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ Your home is the Vale. The Lord of the Vale stands before us. And only his judgment concerns me.,Petyr Baelish,e4,season-06,Game-of-Thrones
 YOHN ROYCE looks to ROBIN.,,e4,season-06,Game-of-Thrones
  Shall we throw him through the Moon Door?,ROBIN,e4,season-06,Game-of-Thrones
 The surrounding knights begin to approach YOHN ROYCE. YOHN ROYCE walks closer to ROBIN.,,e4,season-06,Game-of-Thrones
 " My lord. My lord, I have always been faithful to House Arryn. To your father, to your mother, and now to you.",YOHN ROYCE,e4,season-06,Game-of-Thrones
 " Do you believe him, Uncle Petyr?",ROBIN,e4,season-06,Game-of-Thrones
 YOHN ROYCE turns back to look at LITTLEFINGER.,,e4,season-06,Game-of-Thrones
-" Lord Royce has served the Vale well. He;s enjoyed a distinguished military career. If we could trust his absolute loyalty, he would make a capable commander in the wars to come.",LITTLEFINGER,e4,season-06,Game-of-Thrones
+" Lord Royce has served the Vale well. He;s enjoyed a distinguished military career. If we could trust his absolute loyalty, he would make a capable commander in the wars to come.",Petyr Baelish,e4,season-06,Game-of-Thrones
 YOHN ROYCE turns back to ROBIN.,,e4,season-06,Game-of-Thrones
 " You can trust my absolute loyalty, my lord.",YOHN ROYCE,e4,season-06,Game-of-Thrones
- I think he deserves one more chance. What do you say?,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ I think he deserves one more chance. What do you say?,Petyr Baelish,e4,season-06,Game-of-Thrones
  Fine.,ROBIN,e4,season-06,Game-of-Thrones
 YOHN ROYCE bows and walks a few feet away from the engagement.,,e4,season-06,Game-of-Thrones
-" I bring good news. My friends in the North tell me Sansa has escaped Winterfell. I expect she's headed to Castle Black where her brother serves as Lord Commander. But she won't be safe there, not with the Boltons after her.",LITTLEFINGER (to ROBIN),e4,season-06,Game-of-Thrones
+" I bring good news. My friends in the North tell me Sansa has escaped Winterfell. I expect she's headed to Castle Black where her brother serves as Lord Commander. But she won't be safe there, not with the Boltons after her.",Petyr Baelish (to ROBIN),e4,season-06,Game-of-Thrones
  She's my cousin. We should help her.,ROBIN,e4,season-06,Game-of-Thrones
- That was my instinct as well.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ That was my instinct as well.,Petyr Baelish,e4,season-06,Game-of-Thrones
 LITTLEFINGER turns and walks towards YOHN ROYCE.,,e4,season-06,Game-of-Thrones
- Our lord has spoken. Gather the Knights of the Vale. The time has come to join the fray.,LITTLEFINGER,e4,season-06,Game-of-Thrones
+ Our lord has spoken. Gather the Knights of the Vale. The time has come to join the fray.,Petyr Baelish,e4,season-06,Game-of-Thrones
  You invite the enemy into our city?,GREY WORM,e4,season-06,Game-of-Thrones
 " I did. As a clever man once told me, É??We make peace with our enemies, not our friends.É?ù",TYRION,e4,season-06,Game-of-Thrones
 TYRION begins walking away. The others follow.,,e4,season-06,Game-of-Thrones
@@ -25939,38 +25939,38 @@ A man of the Night's Watch enters.,,e5,season-06,Game-of-Thrones
 The man hands SANSA a scroll. It bears the mockingbird sigil of House Baelish. SANSA unrolls the scroll and reads it.,,e5,season-06,Game-of-Thrones
  How far is Mole's Town?,SANSA,e5,season-06,Game-of-Thrones
 LITTLEFINGER is standing in the center of the room. SANSA and BRIENNE enter. LITTLEFINGER turns to greet them.,,e5,season-06,Game-of-Thrones
-" Sansa. Lady Brienne. When I heard you had escaped WInterfell, I feared the worst. You have no idea how happy I am to see you unharmed.",LITTLEFINGER,e5,season-06,Game-of-Thrones
+" Sansa. Lady Brienne. When I heard you had escaped WInterfell, I feared the worst. You have no idea how happy I am to see you unharmed.",Petyr Baelish,e5,season-06,Game-of-Thrones
  Unharmed? What are you doing here?,SANSA,e5,season-06,Game-of-Thrones
- I rode north with the Knights of the Vale to come to your aid. They're encamped at Moat Cailin as we speak.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ I rode north with the Knights of the Vale to come to your aid. They're encamped at Moat Cailin as we speak.,Petyr Baelish,e5,season-06,Game-of-Thrones
 " To come to my aid? Did you know about Ramsay? If you didn't know, you're an idiot. If you did know, you're my enemy.",SANSA,e5,season-06,Game-of-Thrones
 SANSA steps closer to LITTLEFINGER.,,e5,season-06,Game-of-Thrones
 " Would you like to hear about our wedding night? He never hurt my face. He needed my face, the face of Ned Stark's daughter. But the rest of me, he did what he liked with the rest of me as long as I could still give him an heir. What do you think he did?",SANSA,e5,season-06,Game-of-Thrones
- I can't begin to contemplate --,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ I can't begin to contemplate --,Petyr Baelish,e5,season-06,Game-of-Thrones
  What do you think he did to me?,SANSA,e5,season-06,Game-of-Thrones
  Lady Sansa asked you a question.,BRIENNE,e5,season-06,Game-of-Thrones
- He beat you.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ He beat you.,Petyr Baelish,e5,season-06,Game-of-Thrones
 " Yes, he enjoyed that. What else do you think he did?",SANSA,e5,season-06,Game-of-Thrones
-" Sansa, I --",LITTLEFINGER,e5,season-06,Game-of-Thrones
+" Sansa, I --",Petyr Baelish,e5,season-06,Game-of-Thrones
  What else?,SANSA,e5,season-06,Game-of-Thrones
- Did he cut you?,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ Did he cut you?,Petyr Baelish,e5,season-06,Game-of-Thrones
  Maybe you did know about Ramsay all along.,SANSA,e5,season-06,Game-of-Thrones
- I didn't know.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ I didn't know.,Petyr Baelish,e5,season-06,Game-of-Thrones
  I thought you knew everyone's secrets.,SANSA,e5,season-06,Game-of-Thrones
-" I made a mistake, a horrible mistake. I underestimated a stranger.",LITTLEFINGER,e5,season-06,Game-of-Thrones
+" I made a mistake, a horrible mistake. I underestimated a stranger.",Petyr Baelish,e5,season-06,Game-of-Thrones
 " The other things he did, ladies aren't supposed to talk about those things, but I imagine brothel keepers talk about them all the time. I can still feel it. I don't mean in my tender heart it still pains me so. I can still feel what he did in my body standing here right now.",SANSA,e5,season-06,Game-of-Thrones
- I'm so sorry.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ I'm so sorry.,Petyr Baelish,e5,season-06,Game-of-Thrones
  You said you would protect me.,SANSA,e5,season-06,Game-of-Thrones
- And I will. You must believe me when I tell you that I will.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ And I will. You must believe me when I tell you that I will.,Petyr Baelish,e5,season-06,Game-of-Thrones
  I don't believe you anymore. I don't need you anymore. You can't protect me. You won't even be able to protect yourself if I tell Brienne to cut you down. And why shouldn't I?,SANSA,e5,season-06,Game-of-Thrones
-" Do you want me to beg for my life? If that's what you want, I will. Whatever you ask that is in my power, I will do.",LITTLEFINGER,e5,season-06,Game-of-Thrones
+" Do you want me to beg for my life? If that's what you want, I will. Whatever you ask that is in my power, I will do.",Petyr Baelish,e5,season-06,Game-of-Thrones
  What if I want you to die here and now?,SANSA,e5,season-06,Game-of-Thrones
- Then I will die.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ Then I will die.,Petyr Baelish,e5,season-06,Game-of-Thrones
  You freed me from the monsters who murdered my family and you gave me to other monsters who murdered my family. Go back to Moat Cailin. My brother and I will take back the North on our own. I never want to see you again.,SANSA,e5,season-06,Game-of-Thrones
- I would do anything to undo what's been done to you. I know that I can't. Will you allow me to say one more thing before I go? Your great-uncle Brynden the Blackfish has gathered what remains of the Tully forces and retaken Riverrun. You might consider seeking him out. The time may come when you need an army loyal to you.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ I would do anything to undo what's been done to you. I know that I can't. Will you allow me to say one more thing before I go? Your great-uncle Brynden the Blackfish has gathered what remains of the Tully forces and retaken Riverrun. You might consider seeking him out. The time may come when you need an army loyal to you.,Petyr Baelish,e5,season-06,Game-of-Thrones
  I have an army.,SANSA,e5,season-06,Game-of-Thrones
- Your brother's army.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ Your brother's army.,Petyr Baelish,e5,season-06,Game-of-Thrones
 LITTLEFINGER walks beside SANSA.,,e5,season-06,Game-of-Thrones
- Half-brother.,LITTLEFINGER,e5,season-06,Game-of-Thrones
+ Half-brother.,Petyr Baelish,e5,season-06,Game-of-Thrones
 LITTLEFINGER exits.,,e5,season-06,Game-of-Thrones
  You're not ready. You should go home before it's too late.,WAIF,e5,season-06,Game-of-Thrones
 "The WAIF begins to walk away. ARYA jumps to her feet. The WAIF turns around and drops her staff, then approaches ARYA. ARYA swings at the WAIF several times, but the WAIF dodges and redirects the blows. The WAIF kicks ARYA in her midsection, sending her off the platform. ARYA hops back on the platform and advances. The WAIF disarms ARYA and punches her multiple times, knocking her off the platform and onto the ground.",,e5,season-06,Game-of-Thrones
@@ -30768,27 +30768,27 @@ She hands the bone back to JON.,,e7,season-07,Game-of-Thrones
  The North,CUT TO,e7,season-07,Game-of-Thrones
 A raven flies in the wintery night towards Winterfell.,,e7,season-07,Game-of-Thrones
  Winterfell interior,CUT TO,e7,season-07,Game-of-Thrones
- It's not easy for ravens to fly in these storms. Perhaps Jon tried to send word earlier.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ It's not easy for ravens to fly in these storms. Perhaps Jon tried to send word earlier.,Petyr Baelish,e7,season-07,Game-of-Thrones
 " No, this is the way he is, the way he's always been. He never asked for my opinion. Why would he start now?",SANSA,e7,season-07,Game-of-Thrones
- I can't believe he'd surrender the Northern crown without consulting you.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I can't believe he'd surrender the Northern crown without consulting you.,Petyr Baelish,e7,season-07,Game-of-Thrones
 " This is his writing, his signature. He pledged to fight for Daenerys Targaryen. He's bent the knee.",SANSA,e7,season-07,Game-of-Thrones
- I've heard gossip that the Dragon Queen is quite beautiful.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I've heard gossip that the Dragon Queen is quite beautiful.,Petyr Baelish,e7,season-07,Game-of-Thrones
  What does that have to do with anything?,SANSA,e7,season-07,Game-of-Thrones
- Jon is young and unmarried. Daenerys is young and unmarried.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Jon is young and unmarried. Daenerys is young and unmarried.,Petyr Baelish,e7,season-07,Game-of-Thrones
  You think he wants to marry her?,SANSA,e7,season-07,Game-of-Thrones
-" An alliance makes sense. Together, they'd be difficult to defeat. He was named King.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" An alliance makes sense. Together, they'd be difficult to defeat. He was named King.",Petyr Baelish,e7,season-07,Game-of-Thrones
 " Even if I wanted to, Arya would never go along. She always loved Jon far more than she ever loved me, and she'd kill anyone who betrayed her family.",SANSA,e7,season-07,Game-of-Thrones
-" You are family, too. Would Arya really murder her own sister?",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" You are family, too. Would Arya really murder her own sister?",Petyr Baelish,e7,season-07,Game-of-Thrones
  Do you know what she is now? Do you know what the Faceless Men are?,SANSA,e7,season-07,Game-of-Thrones
-" Only by reputation. They worship the God of Death, I believe. I never trust godly men.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" Only by reputation. They worship the God of Death, I believe. I never trust godly men.",Petyr Baelish,e7,season-07,Game-of-Thrones
  They're killers. And Arya was one of them. What do you think she's after?,SANSA,e7,season-07,Game-of-Thrones
- She's your sister,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ She's your sister,Petyr Baelish,e7,season-07,Game-of-Thrones
  She could want me dead because she thinks I wronged my family.,SANSA,e7,season-07,Game-of-Thrones
- Why did she come to Winterfell?,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Why did she come to Winterfell?,Petyr Baelish,e7,season-07,Game-of-Thrones
  To kill me for marrying our enemies and betraying my family.,SANSA,e7,season-07,Game-of-Thrones
- Why did she unearth the letter Cersei made you write?,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Why did she unearth the letter Cersei made you write?,Petyr Baelish,e7,season-07,Game-of-Thrones
  To provide proof of my betrayals. To provide justification after she murders me.,SANSA,e7,season-07,Game-of-Thrones
-" And after she murders you, what does she become?",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" And after she murders you, what does she become?",Petyr Baelish,e7,season-07,Game-of-Thrones
  Lady,SANSA,e7,season-07,Game-of-Thrones
 SANSA contemplates.,,e7,season-07,Game-of-Thrones
  Dragonstone Map Room,CUT TO,e7,season-07,Game-of-Thrones
@@ -30866,39 +30866,39 @@ HARRAG spits in THEON's face. The men laugh.,,e7,season-07,Game-of-Thrones
  You stand accused of murder. You stand accused of treason. How do you answer these charges Lord Baelish?,SANSA,e7,season-07,Game-of-Thrones
 "SANSA and ARYA turn their heads towards LITTLEFINGER, as do the others in the room. LITTLEFINGER is dumbfounded.",,e7,season-07,Game-of-Thrones
  My sister asked you a question.,ARYA,e7,season-07,Game-of-Thrones
-" Lady Sansa, forgive me I'm a bit confused.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" Lady Sansa, forgive me I'm a bit confused.",Petyr Baelish,e7,season-07,Game-of-Thrones
 " Which charges confuse you? Let's start with the simplest one you murdered our aunt, Lysa Arryn. You pushed her through the Moon Door and watched her fall. Do you deny it?",SANSA,e7,season-07,Game-of-Thrones
- I did it to protect you.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I did it to protect you.,Petyr Baelish,e7,season-07,Game-of-Thrones
 " You did it to take power in the Vale. Earlier, you conspired to murder Jon.",SANSA,e7,season-07,Game-of-Thrones
- Whatever your aunt,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Whatever your aunt,Petyr Baelish,e7,season-07,Game-of-Thrones
  You had Aunt Lysa send a letter to our parents telling them it was the Lannisters who murdered Jon.,SANSA,e7,season-07,Game-of-Thrones
- I know of no such letter.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I know of no such letter.,Petyr Baelish,e7,season-07,Game-of-Thrones
  You conspired with Cersei Lannister and Joffrey Baratheon to betray our father.,SANSA,e7,season-07,Game-of-Thrones
- I deny it! None of you were there to see what happened. None of you knows the truth.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I deny it! None of you were there to see what happened. None of you knows the truth.,Petyr Baelish,e7,season-07,Game-of-Thrones
  You held a knife to his throat.,BRAN,e7,season-07,Game-of-Thrones
 "LITTLEFINGER turns to face BRAN, surprised at this knowledge he has.",,e7,season-07,Game-of-Thrones
 " You said, ""I did warn you not the trust me.""",BRAN,e7,season-07,Game-of-Thrones
  You told our mother,ARYA,e7,season-07,Game-of-Thrones
 ARYA draws the knife.,,e7,season-07,Game-of-Thrones
-" Lady Sansa, I have known you since you were a girl. I've protected you.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" Lady Sansa, I have known you since you were a girl. I've protected you.",Petyr Baelish,e7,season-07,Game-of-Thrones
  Protected me? By selling me to the Boltons?,SANSA,e7,season-07,Game-of-Thrones
-" If we could speak alone, I can explain everything.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" If we could speak alone, I can explain everything.",Petyr Baelish,e7,season-07,Game-of-Thrones
 " Sometimes when I'm trying to understand a person's motives, I play a little game. I assume the worst. What's the worst reason you have for turning me against my sisterThat's what you do, isn't it? That's what you've always done turn family against family, turn sister against sister. That's what you did to our mother.",SANSA,e7,season-07,Game-of-Thrones
-" Sansa, please.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" Sansa, please.",Petyr Baelish,e7,season-07,Game-of-Thrones
 " I'm a slow learner, it's true. But I learn.",SANSA,e7,season-07,Game-of-Thrones
- Give me a chance to defend myself. I deserve that.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Give me a chance to defend myself. I deserve that.,Petyr Baelish,e7,season-07,Game-of-Thrones
  (Nods.),SANSA,e7,season-07,Game-of-Thrones
- I am Lord Protector of the Vale and I command you to escort me safely back to the Eyrie.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I am Lord Protector of the Vale and I command you to escort me safely back to the Eyrie.,Petyr Baelish,e7,season-07,Game-of-Thrones
  I think not.,JOHN ROYCE,e7,season-07,Game-of-Thrones
 LITTLEFINGER kneels before SANSA.,,e7,season-07,Game-of-Thrones
-" Sansa, I beg you! I loved your mother since the time I was a boy.",LITTLEFINGER,e7,season-07,Game-of-Thrones
+" Sansa, I beg you! I loved your mother since the time I was a boy.",Petyr Baelish,e7,season-07,Game-of-Thrones
 " And yet, you betrayed her.",SANSA,e7,season-07,Game-of-Thrones
- I loved you. More than anyone.,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ I loved you. More than anyone.,Petyr Baelish,e7,season-07,Game-of-Thrones
 " And yet, you betrayed me.",SANSA,e7,season-07,Game-of-Thrones
 SANSA rises.,,e7,season-07,Game-of-Thrones
 " When you brought me back to Winterfell, you told me there's no justice in the world, not unless we make it. Thank you for all your many lessons, Lord Baelish. I will never forget them.",SANSA,e7,season-07,Game-of-Thrones
 "ARYA steps briskly towards LITTLEFINGER, and slashes his throat with his own knife, swiftly.",,e7,season-07,Game-of-Thrones
- Sansa! (GASPS) I--,LITTLEFINGER,e7,season-07,Game-of-Thrones
+ Sansa! (GASPS) I--,Petyr Baelish,e7,season-07,Game-of-Thrones
 "ARYA returns tableside, and everyone watches as LITTLEFINGER dies.",,e7,season-07,Game-of-Thrones
  An Interior Courtyard in King's Landing.,CUT TO,e7,season-07,Game-of-Thrones
 Jaime paces into the yard. CERSEI watches from the upper level.,,e7,season-07,Game-of-Thrones

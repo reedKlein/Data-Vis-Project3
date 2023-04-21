@@ -1,4 +1,4 @@
-d3.csv('data/game-of-thrones.csv')
+d3.csv('data/game-of-thrones-cleaned.csv')
   .then(data => {
     data.forEach(d => {
       d.text = d.Text
