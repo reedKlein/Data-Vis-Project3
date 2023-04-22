@@ -45,7 +45,8 @@ class Barchart {
   
       vis.xAxis = d3.axisBottom(vis.xScale)
           .tickSize(0, 0)
-          .ticks(0);
+          .ticks(0)
+          .tickFormat(t => {return t=='' ? 'other' : t});
   
       // Define size of SVG drawing area
       vis.svg = d3.select(vis.config.parentElement)

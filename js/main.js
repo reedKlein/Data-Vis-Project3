@@ -171,7 +171,7 @@ function format_barchart(data, field){
         // let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0);
         // let remainingData = remainingData_lower + remainingData_upper;
         // if(remainingData > 0){ retData.push({ x: "other", y: remainingData })}
-      }
+    }
     else {
         retData = myObjStruct;
     }
