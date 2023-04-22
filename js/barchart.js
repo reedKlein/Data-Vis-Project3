@@ -10,9 +10,9 @@ class Barchart {
       this.config = {
         parentElement: _config.parentElement,
         logRange: _config.logRange || .5,
-        containerWidth: _config.containerWidth || 750,
-        containerHeight: _config.containerHeight || 300,
-        margin: _config.margin || {top: 10, right: 10, bottom: 25, left: 40},
+        containerWidth: _config.containerWidth || 500,
+        containerHeight: _config.containerHeight || 200,
+        margin: _config.margin || {top: 10, right: 10, bottom: 25, left: 45},
         logScale: _config.logScale || false,
         tooltipPadding: _config.tooltipPadding || 15
       }
@@ -37,6 +37,8 @@ class Barchart {
   
       // Initialize scales and axes
       // Important: we flip array elements in the y output range to position the rectangles correctly  
+
+      
       vis.xScale = d3.scaleBand()
           .range([0, vis.width])
           .paddingInner(0.2);
@@ -48,7 +50,7 @@ class Barchart {
       // Define size of SVG drawing area
       vis.svg = d3.select(vis.config.parentElement)
           .attr('width', vis.config.containerWidth)
-          .attr('height', vis.config.containerHeight);
+          .attr('height', vis.config.containerHeight)
   
       // SVG Group containing the actual chart; D3 margin convention
       vis.chart = vis.svg.append('g')
@@ -81,12 +83,10 @@ class Barchart {
       // Set variable Y scale for Logarithmic or Linear
       if (vis.config.logScale){
         vis.yScale = d3.scaleLog()
-
         vis.yScale.domain([vis.config.logRange, d3.max(vis.data, vis.yValue)]);
       }
       else{
         vis.yScale = d3.scaleLinear()
-        
         vis.yScale.domain([0, d3.max(vis.data, vis.yValue)]);
       }
 
@@ -162,6 +162,10 @@ class Barchart {
             d3.select('#tooltip').style('opacity', 0);
           })
           .on('click', (event, d) =>{
+            if(vis.type == "speaker" && d['x'] == "other"){
+                return;
+            }
+            console.log("selected bar", d)
             handle_filter(d, vis.type);
           });
       

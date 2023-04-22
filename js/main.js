@@ -81,7 +81,7 @@ var last_char_bar = 20;
 var char_domain_size = 0;
 var characterDict = { "all": [] };
 
-d3.csv('data/game-of-thrones-cleaned.csv')
+d3.csv('data/game-of-thrones-cleaned-houses.csv')
   .then(data => {
 
     // filter out characters that don't have at least 45 lines
@@ -118,6 +118,12 @@ d3.csv('data/game-of-thrones-cleaned.csv')
       format_barchart(master_data, "season"),
       "season"); // d3 rollup length of values from sy_snum
     charts.push(season_lines_barchart)
+
+    house_lines_barchart = new Barchart({ parentElement: '#house_lines_chart'}, 
+                                        format_barchart(master_data, "major_house"), 
+                                        "major_house"); // d3 rollup length of values from sy_snum
+    charts.push(house_lines_barchart)
+
     charts.forEach(chart => {
       chart.updateVis();
     });
@@ -150,26 +156,26 @@ d3.csv('data/game-of-thrones-cleaned.csv')
 
 
 // Create an object from rolled up data and assign it to templated "x" and "y" fields
-function format_barchart(data, field) {
-  data_rollup = d3.rollup(data, v => v.length, d => d[field])
-  let myObjStruct = Object.assign(Array.from(data_rollup).map(([k, v]) => ({ "x": k, "y": v })));
-  console.log(field, myObjStruct);
+function format_barchart(data, field){
+    data_rollup = d3.rollup(data, v => v.length, d => d[field])
+    let myObjStruct = Object.assign(Array.from(data_rollup).map(([k, v]) => ({"x": k, "y" : v})));
 
-  if (field === "speaker") {
-    myObjStruct.sort((a, b) => b.y - a.y);
-    console.log(first_char_bar, last_char_bar)
-    char_domain_size = myObjStruct.length;
-    retData = myObjStruct.slice(first_char_bar, last_char_bar);
-    console.log(retData);
-    let remainingData_lower = myObjStruct.slice(0, first_char_bar).reduce((partialSum, a) => partialSum + a.y, 0)
-    let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0)
-    let remainingData = remainingData_lower + remainingData_upper
-    if (remainingData > 0) { retData.push({ x: "other", y: remainingData }) }
-  }
-  else {
-    retData = myObjStruct;
-  }
-  return retData;
+    if (field === "speaker") {
+        myObjStruct.sort((a, b) => b.y - a.y);
+        char_domain_size = myObjStruct.length;
+
+        if(selected_filters.find(f => f.field === "speaker")){first_char_bar = 0; last_char_bar = 20} 
+
+        retData = myObjStruct.slice(first_char_bar, last_char_bar);
+        // let remainingData_lower = myObjStruct.slice(0, first_char_bar).reduce((partialSum, a) => partialSum + a.y, 0);
+        // let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0);
+        // let remainingData = remainingData_lower + remainingData_upper;
+        // if(remainingData > 0){ retData.push({ x: "other", y: remainingData })}
+      }
+    else {
+        retData = myObjStruct;
+    }
+    return retData;
 }
 
 // Sort per chart
@@ -212,56 +218,54 @@ d3.select('#char_next').on('click', d => {
   character_lines_barchart.updateVis();
 });
 
-function filtering() {
-  console.log(selected_filters);
-  filtered_data = master_data;
-  selected_filters.forEach(filter => {
-    if (filter.field === "speaker" || filter.field === "episode" || filter.field === "season") {
-      filtered_data = filtered_data.filter(x => { return x[filter.field] == filter.d['x'] });
-      updateWordCloud(characterDict, filter.d.x);
-    }
-    else if (filter.field == 'updateTime') {
-      filtered_data = filtered_data.filter(x => { return x[filter.field] >= filter.d['d0'] && x[filter.field] <= filter.d['d1'] });
-    }
-    else if (filter.field == 'requested_datetime') {
-      filtered_data = filtered_data.filter(x => { return new Date(x[filter.field]) >= filter.d['d0'] && new Date(x[filter.field]) < filter.d['d1'] });
-    }
-    else if (filter.field === "areaSelect") {
-      filtered_data = filtered_data.filter(x => { return x['longitude'] < filter.d['d0Lon'] && x['longitude'] > filter.d['d1Lon'] && x['latitude'] > filter.d['d0Lat'] && x['latitude'] < filter.d['d1Lat'] })
-    }
-  });
-  return filtered_data;
-}
-
-// handle filter event
-function handle_filter(data, field) {
-  update_filter_selection(data, field);
-  filtered_data = filtering();
-  update_charts(filtered_data)
-}
-
-// update selection for multi select
-function update_filter_selection(d, field) {
-  if (selected_filters.length === 0) { // Check if filter exists
-    selected_filters.push({ "field": field, "d": d });
-  }
-  else { // remove filter
-    let index = 0
-    let newFilter = true;
-    selected_filters.forEach(filter => {
-      if ((field === "speaker" && filter.field == "speaker") ||
-        (field === "updateTime" && filter.field == "updateTime") ||
-        (field === "areaSelect" && filter.field == "areaSelect")) {
-        selected_filters.splice(index, 1);
-      }
-      if (filter.field == field && (filter.d['x'] === d['x'] && d['x'] !== undefined)) {
-        selected_filters.splice(index, 1);
-        newFilter = false;
-      }
-      index++;
+function filtering(){
+    filtered_data = master_data;
+    selected_filters.forEach( filter => {
+        if(filter.field === "speaker" || filter.field === "episode" || filter.field === "season" || filter.field === "major_house"){
+            filtered_data = filtered_data.filter(x => {return x[filter.field] == filter.d['x']});
+        }
+        else if(filter.field == 'updateTime'){
+          filtered_data = filtered_data.filter(x => {return x[filter.field] >= filter.d['d0'] && x[filter.field] <= filter.d['d1']});
+        }
+        else if(filter.field == 'requested_datetime'){
+          filtered_data = filtered_data.filter(x => {return new Date(x[filter.field]) >= filter.d['d0'] && new Date(x[filter.field]) < filter.d['d1']});
+        }
+        else if(filter.field === "areaSelect"){
+          filtered_data = filtered_data.filter(x => {return x['longitude'] < filter.d['d0Lon'] && x['longitude'] > filter.d['d1Lon'] && x['latitude'] > filter.d['d0Lat'] && x['latitude'] < filter.d['d1Lat']})
+        }
     });
-    if (newFilter) {
-      selected_filters.push({ "field": field, "d": d });
+    return filtered_data;
+  }
+  
+  // handle filter event
+  function handle_filter(data, field){
+    update_filter_selection(data, field);
+    filtered_data = filtering();
+    update_charts(filtered_data)
+  }
+  
+  // update selection for multi select
+  function update_filter_selection(d, field){ 
+    if(selected_filters.length === 0){ // Check if filter exists
+        selected_filters.push({"field": field, "d": d});
+    }
+    else{ // remove filter
+        let index = 0
+        let newFilter = true;
+        selected_filters.forEach( filter =>{
+          if((field === "speaker" && filter.field == "speaker") || 
+            (field === "updateTime" && filter.field == "updateTime") || 
+            (field === "areaSelect"  && filter.field == "areaSelect")){
+            selected_filters.splice(index,1);
+          }
+          if(filter.field == field && (filter.d['x'] === d['x'] && d['x'] !== undefined)){
+              selected_filters.splice(index, 1);
+              newFilter = false;       
+          }
+          index++;
+        });
+        if(newFilter){
+            selected_filters.push({"field": field, "d": d});
+        }
     }
   }
-}
