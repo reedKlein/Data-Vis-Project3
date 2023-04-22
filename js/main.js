@@ -4,7 +4,7 @@ var first_char_bar=0;
 var last_char_bar=20;
 var char_domain_size = 0;
 
-d3.csv('data/game-of-thrones-cleaned.csv')
+d3.csv('data/game-of-thrones-cleaned-houses.csv')
   .then(data => {
 
     // filter out characters that don't have at least 45 lines
@@ -41,6 +41,12 @@ d3.csv('data/game-of-thrones-cleaned.csv')
                                      format_barchart(master_data, "season"), 
                                      "season"); // d3 rollup length of values from sy_snum
     charts.push(season_lines_barchart)
+
+    house_lines_barchart = new Barchart({ parentElement: '#house_lines_chart'}, 
+                                        format_barchart(master_data, "major_house"), 
+                                        "major_house"); // d3 rollup length of values from sy_snum
+    charts.push(house_lines_barchart)
+
     charts.forEach( chart => {
         chart.updateVis();
     });                                 
@@ -51,22 +57,22 @@ d3.csv('data/game-of-thrones-cleaned.csv')
 function format_barchart(data, field){
     data_rollup = d3.rollup(data, v => v.length, d => d[field])
     let myObjStruct = Object.assign(Array.from(data_rollup).map(([k, v]) => ({"x": k, "y" : v})));
-    console.log(field, myObjStruct);
 
     if (field === "speaker") {
         myObjStruct.sort((a, b) => b.y - a.y);
-        console.log(first_char_bar, last_char_bar)
         char_domain_size = myObjStruct.length;
+
+        if(selected_filters.find(f => f.field === "speaker")){first_char_bar = 0; last_char_bar = 20} 
+
         retData = myObjStruct.slice(first_char_bar, last_char_bar);
-        console.log(retData);
-        let remainingData_lower = myObjStruct.slice(0, first_char_bar).reduce((partialSum, a) => partialSum + a.y, 0)
-        let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0)
-        let remainingData = remainingData_lower + remainingData_upper
-        if(remainingData > 0){ retData.push({ x: "other", y: remainingData })}
+        // let remainingData_lower = myObjStruct.slice(0, first_char_bar).reduce((partialSum, a) => partialSum + a.y, 0);
+        // let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0);
+        // let remainingData = remainingData_lower + remainingData_upper;
+        // if(remainingData > 0){ retData.push({ x: "other", y: remainingData })}
       }
-      else {
+    else {
         retData = myObjStruct;
-      }
+    }
     return retData;
 }
 
@@ -111,10 +117,9 @@ function update_charts(filtered_data){
   });
 
 function filtering(){
-    console.log(selected_filters);
     filtered_data = master_data;
     selected_filters.forEach( filter => {
-        if(filter.field === "speaker" || filter.field === "episode" || filter.field === "season"){
+        if(filter.field === "speaker" || filter.field === "episode" || filter.field === "season" || filter.field === "major_house"){
             filtered_data = filtered_data.filter(x => {return x[filter.field] == filter.d['x']});
         }
         else if(filter.field == 'updateTime'){
