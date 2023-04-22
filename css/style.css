@@ -3,7 +3,10 @@ html body {
     padding: 30px;
     background-color: #202020;
   }
-
+#wordcloud svg {
+  display: block;
+  margin: auto;
+}
 #full-container{
   opacity: 1;
   height:100%
