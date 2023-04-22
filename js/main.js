@@ -143,12 +143,6 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
           else {
             characterDict[d.speaker].find(x => x.text === word).size += 1;
           }
-          // if (characterDict["all"].find(x => x.text === word) == undefined) {
-          //   characterDict["all"].push({"text": word, "size": 1 });
-          // }
-          // else {
-          //   characterDict["all"].find(x => x.text === word).size += 1;
-          // }
         }
       });
     });
@@ -242,6 +236,7 @@ function filtering(){
     update_filter_selection(data, field);
     filtered_data = filtering();
     update_charts(filtered_data)
+    updateWordCloud(characterDict, data.x);
   }
   
   // update selection for multi select
