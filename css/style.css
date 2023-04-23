@@ -23,7 +23,7 @@ html body {
     flex: 1;
   }
   h1 {
-    font-family: 'Lora', serif;
+    
     font-size: 1.4rem;
   }
   .bar {
@@ -151,7 +151,9 @@ html body {
 
 .chartH, .chartH a{
   text-align:center;
-  color: #d6d6d5
+  color: #d6d6d5;
+  font-family: Got-font;
+  word-spacing: 5px;
 }
 
 .axis text, .tick text, .axis-title, .tooltip circle, .tooltip text{
@@ -253,4 +255,18 @@ html body {
 
 #RHeader{
   font-size: 30px;
+}
+
+@font-face {
+    font-family: Got-font;
+    src: url(../font/Game_of_Thrones.ttf)
+}
+
+#vis-title {
+    color: #FFF190;
+    font-family: Got-font;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 10px;
 }
