@@ -166,7 +166,6 @@ class Barchart {
             if(vis.type == "speaker" && d['x'] == "other"){
                 return;
             }
-            console.log("selected bar", d)
             handle_filter(d, vis.type);
           });
       

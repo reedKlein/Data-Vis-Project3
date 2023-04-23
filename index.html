@@ -15,30 +15,39 @@
           <h1>Charater Lines</h1>
         </div>
         <svg id="char_lines_chart"></svg>
-        <char_lines_f>
+        <div id="char_lines_f" class="chartF">
           <button id="char_prev">prev</button>
           <button id="char_next">next</button>
-        </char_lines_f>
-      </div>
-      <div id="episode_lines_container" class="grid-item">
-        <div class="chartH">
-          <h1>Lines Per Episode</h1>
         </div>
-        <svg id="episode_lines_chart"></svg>
       </div>
-        </div>
-        <div class="grid-container">
         <div id="season_lines_container" class="grid-item">
             <div class="chartH">
                 <h1>Lines Per Season</h1>
             </div>
             <svg id="season_lines_chart"></svg>
         </div>
+        <div id="phrase_lookup_container" class="grid-item">
+            <div class="chartH">
+                <h1>Lookup a phrase</h1>
+            </div>
+            <input id="phrase_lookup_input"/>
+            <div id="phrase_lookup_footer" class="chartF">
+                <button id="phrase_lookup_but">Search Phrase</button>
+            </div>
+        </div>
+    </div>
+        <div class="grid-container">
             <div id="house_lines_container" class="grid-item">
                 <div class="chartH">
                     <h1>Lines per Major House</h1>
                 </div>
                 <svg id="house_lines_chart"></svg>
+            </div>
+            <div id="episode_lines_container" class="grid-item">
+                <div class="chartH">
+                  <h1>Lines Per Episode</h1>
+                </div>
+                <svg id="episode_lines_chart"></svg>
             </div>
     </div>
     <div id="tooltip"></div>

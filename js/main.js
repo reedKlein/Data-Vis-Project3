@@ -1,14 +1,14 @@
 // referenced https://stackoverflow.com/questions/29194489/how-to-use-d3-layout-cloud-js-to-create-a-word-cloud-with-a-csv-containing-both
-
-function updateWordCloud(characterDict, character) {
+var wordBlackList = ["the", "of", "a", "i", "to", "was", "be", "my", "do", "and", "he", "me", "your", "is", "that", "it", "at", "in", "for", "have", "will", "this", "but", "what", "you", "don't", "with", "she", "are", "they", "has", "him", "well", "i'm", "his", "you're", "by", "you've", "as", "or", "there", "did", "too", "we", "so", "that's", "doesn't", "i'd", "l", "i'll", "she's", "their", "when", "there's", "an", "about", "them", "would", "i've", "he's", "into", "it's", "than", "like", "some", "over", "does", "on", "rape", "got", "does", "after", "am", "oh", "you'll", "off", "sure", "we're", "were", "where", "any", "from", "before", "how", "can", "use"];
+function updateWordCloud() {
+    console.log(wordDict.length);
   d3.select("#wordcloud").select("svg").remove();
-  if (character in characterDict && character != "other") {
-    var tempMyWords = characterDict[character]
     // var myWords = [{ "text": "test", "size": 1 }, { "text": "a", "size": 1 }, { "text": "banana", "size": 1 }]
-    tempMyWords = tempMyWords.sort((a, b) => a.size - b.size).reverse();
+    wordDict = wordDict.sort((a, b) => a.size - b.size).reverse();
     var myWords = [];
     var count = 150;
-    tempMyWords.forEach(word => {
+    wordDict.forEach(word => {
+      word.word_count = word.size;
       if (count > 130) {
         word.size = 80
       }
@@ -55,10 +55,10 @@ function updateWordCloud(characterDict, character) {
 
     function draw(words) {
       d3.select("#wordcloud").append("svg")
-        .attr("width", 1600)
+        .attr("width", 1550)
         .attr("height", 900)
         .append("g")
-        .attr("transform", "translate(100,200)")
+        .attr("transform", "translate(50,200)")
         .selectAll("text")
         .data(myWords)
         .enter().append("text")
@@ -69,9 +69,27 @@ function updateWordCloud(characterDict, character) {
         .attr("transform", function (word) {
           return "translate(" + [word.x + 700, word.y + 250] + ")rotate(" + word.rotate + ")";
         })
-        .text(function (word) { return word.text; });
+        .text(function (word) { return word.text; })
+            .style('cursor', 'pointer')
+        .on('mouseover', (event,d) => {
+            d3.select('#tooltip')
+              .style('opacity', 1)
+              // Format number with million and thousand separator
+              .html(`<div class="tooltip-label">Word: ${d.text} <br> Used: ${d.word_count} time(s)</div>`);
+          })
+          .on('mousemove', (event) => {
+            d3.select('#tooltip')
+              .style('left', (event.pageX + 15) + 'px')   
+              .style('top', (event.pageY + 15) + 'px')
+          })
+          .on('mouseleave', () => {
+            d3.select('#tooltip').style('opacity', 0)
+          })
+          .on('click', (event, d) =>{
+            document.getElementById("phrase_lookup_input").value = d.text;
+            handle_filter(d.text.toString(), "text");
+          });
     }
-  }
 }
 
 var selected_filters = [];
@@ -79,7 +97,7 @@ var charts = [];
 var first_char_bar = 0;
 var last_char_bar = 20;
 var char_domain_size = 0;
-var characterDict = { "all": [] };
+var wordDict = [];
 
 d3.csv('data/game-of-thrones-cleaned-houses.csv')
   .then(data => {
@@ -87,7 +105,7 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
     // filter out characters that don't have at least 45 lines
     char_lines = d3.rollup(data, v => v.length, d => d.Speaker);
     relevant_data = Array.from(char_lines)
-      .filter(d => d[1] >= 45 && d[0] !== "" && d[0] !== "Nan")
+      .filter(d => d[1] >= 45 && d[0] !== "" && d[0] !== "Nan" && d[0] !== "Cut To" && d[0] !== "Int" && d[0] !== "Ext")
       .map(d => d[0]);
 
     master_data = data.filter(d => relevant_data.includes(d.Speaker));
@@ -98,7 +116,7 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
       d.speaker = d.Speaker
       d.modifier = d.Modifier
       if (d.modifier) d.modifier = d.modifier.slice(0, -1);
-      d.episode = d.Episode
+      d.episode = `s${d.Season.slice(-1)}${d.Episode}`
       d.season = d.Season
     });
 
@@ -125,28 +143,33 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
     charts.push(house_lines_barchart)
 
     charts.forEach(chart => {
+      custom_sort(chart);
       chart.updateVis();
     });
-    var wordBlackList = ["the", "of", "a", "i", "to", "was", "be", "my", "do", "and", "he", "me", "your", "is", "that", "it", "at", "in", "for", "have", "will", "this", "but", "what", "you", "don't", "with", "she", "are", "they", "has", "him", "well", "i'm", "his", "you're", "by", "you've", "as", "or", "there", "did", "too", "we", "so", "that's", "doesn't", "i'd", "l", "i'll", "she's", "their", "when", "there's", "an", "about", "them", "would", "i've", "he's"];
+    update_wordDict();
+    updateWordCloud();
+
     // var wordBlackList = [];
-    master_data.forEach(d => {
-      if (!(d.speaker in characterDict)) {
-        characterDict[d.speaker] = []
-      }
-      var tempString = d.Text.substring(1).toLowerCase().replaceAll(".", "").replaceAll(",", "").replaceAll("?", "").replaceAll("!", "").replaceAll(";", "");
-      tempString = tempString.split(" ");
-      tempString.forEach(word => {
-        if (!(word == "") && !(wordBlackList.includes(word)) && word.charAt(0).toLowerCase() != word.charAt(0).toUpperCase()) {
-          if (characterDict[d.speaker].find(x => x.text === word) == undefined) {
-            characterDict[d.speaker].push({ "text": word, "size": 1 });
-          }
-          else {
-            characterDict[d.speaker].find(x => x.text === word).size += 1;
-          }
-        }
-      });
-    });
   });
+
+function update_wordDict(){
+    wordDict = [];
+    wordcloud_filter_data = filtering();
+    wordcloud_filter_data.forEach(d => {
+        var tempString = d.text.substring(1).toLowerCase().replaceAll(".", "").replaceAll(",", "").replaceAll("?", "").replaceAll("!", "").replaceAll(";", "");
+        tempString = tempString.split(" ");
+        tempString.forEach(word => {
+          if (!(word == "") && !(wordBlackList.includes(word)) && word.charAt(0).toLowerCase() != word.charAt(0).toUpperCase()) {
+            if (wordDict.find(x => x.text === word) == undefined) {
+              wordDict.push({ "text": word, "size": 1 });
+            }
+            else {
+              wordDict.find(x => x.text === word).size += 1;
+            }
+          }
+        });
+    });
+}
 
 
 // Create an object from rolled up data and assign it to templated "x" and "y" fields
@@ -158,15 +181,11 @@ function format_barchart(data, field){
         myObjStruct.sort((a, b) => b.y - a.y);
         char_domain_size = myObjStruct.length;
 
-        if(selected_filters.find(f => f.field === "speaker")){first_char_bar = 0; last_char_bar = 20} 
+        if(selected_filters.find(f => f.field === "speaker") || selected_filters.find(f => f.field === "major_house")){first_char_bar = 0; last_char_bar = 20} 
 
         retData = myObjStruct.slice(first_char_bar, last_char_bar);
-        // let remainingData_lower = myObjStruct.slice(0, first_char_bar).reduce((partialSum, a) => partialSum + a.y, 0);
-        // let remainingData_upper = myObjStruct.slice(last_char_bar, myObjStruct.length).reduce((partialSum, a) => partialSum + a.y, 0);
-        // let remainingData = remainingData_lower + remainingData_upper;
-        // if(remainingData > 0){ retData.push({ x: "other", y: remainingData })}
     }
-    else {
+    else { 
         retData = myObjStruct;
     }
     return retData;
@@ -174,7 +193,21 @@ function format_barchart(data, field){
 
 // Sort per chart
 function custom_sort(chart) {
-  chart.data.sort((a, b) => a.x - b.x);
+  if(chart.type === 'episode'){
+    chart.data.sort((a, b) => {
+        seasonA = parseInt(`${a.x.charAt(1)}`);
+        seasonB = parseInt(`${b.x.charAt(1)}`);
+        if(seasonA < seasonB){return -1}
+        else if(seasonA > seasonB){return 1}
+        else{
+            episodeA = parseInt(`${a.x.split('e')[1].split('-')[0]}`)
+            episodeB = parseInt(`${b.x.split('e')[1].split('-')[0]}`)
+            if(episodeA < episodeB){return -1}
+            else{return 1}
+        }
+    });
+    }
+//   chart.data.sort((a, b) => a.x - b.x);
   return;
 }
 
@@ -190,10 +223,13 @@ function update_charts(filtered_data) {
       chart.updateVis();
     }
     else {
-      chart.data = format_barchart(filtered_data, chart.type)
+      chart.data = format_barchart(filtered_data, chart.type);
+      custom_sort(chart);
       chart.updateVis();
     }
-  });
+  })
+  update_wordDict()
+  updateWordCloud();
 }
 
 d3.select('#char_prev').on('click', d => {
@@ -212,14 +248,23 @@ d3.select('#char_next').on('click', d => {
   character_lines_barchart.updateVis();
 });
 
+d3.select('#phrase_lookup_but').on('click', d => {
+    phrase = document.getElementById("phrase_lookup_input").value;
+    handle_filter(phrase, "text")
+})
+
 function filtering(){
     filtered_data = master_data;
     selected_filters.forEach( filter => {
         if(filter.field === "speaker" || filter.field === "episode" || filter.field === "season" || filter.field === "major_house"){
             filtered_data = filtered_data.filter(x => {return x[filter.field] == filter.d['x']});
         }
-        else if(filter.field == 'updateTime'){
-          filtered_data = filtered_data.filter(x => {return x[filter.field] >= filter.d['d0'] && x[filter.field] <= filter.d['d1']});
+        else if(filter.field == 'text'){
+          filtered_data = filtered_data.filter(x => {
+                                                text_data = x['text'].toString().toLowerCase();
+                                                filter_data = filter.d.toString().toLowerCase();
+                                                return (text_data.includes(filter_data))
+                                                });
         }
         else if(filter.field == 'requested_datetime'){
           filtered_data = filtered_data.filter(x => {return new Date(x[filter.field]) >= filter.d['d0'] && new Date(x[filter.field]) < filter.d['d1']});
@@ -235,8 +280,8 @@ function filtering(){
   function handle_filter(data, field){
     update_filter_selection(data, field);
     filtered_data = filtering();
-    update_charts(filtered_data)
-    updateWordCloud(characterDict, data.x);
+    update_charts(filtered_data);
+    console.log(selected_filters);
   }
   
   // update selection for multi select
@@ -248,10 +293,14 @@ function filtering(){
         let index = 0
         let newFilter = true;
         selected_filters.forEach( filter =>{
-          if((field === "speaker" && filter.field == "speaker") || 
-            (field === "updateTime" && filter.field == "updateTime") || 
-            (field === "areaSelect"  && filter.field == "areaSelect")){
-            selected_filters.splice(index,1);
+          if(filter.field == field && filter.field === "text"){
+            if(d == ''){
+                selected_filters.splice(index,1);
+                newFilter = false;
+            }
+            else{
+                selected_filters.splice(index,1);
+            }
           }
           if(filter.field == field && (filter.d['x'] === d['x'] && d['x'] !== undefined)){
               selected_filters.splice(index, 1);
