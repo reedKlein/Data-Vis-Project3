@@ -70,9 +70,9 @@ major_houses_array = ['Lannister', 'Baratheon', 'Targaryen', 'Greyjoy', 'Arynn',
 # multi_word_name_lookup(df)
 # replaced_df = word_replacement(df)
 
-# replaced_df.to_csv('./data/game-of-thrones-cleaned.csv', sep=',', encoding='utf-8')
+# replaced_df.to_csv()
 
 
 # df = get_df('./data/game-of-thrones-cleaned.csv')
 # houses_df = get_major_houses(df)
-# houses_df.to_csv('./data/game-of-thrones-cleaned-houses.csv', sep=',', encoding='utf-8')
+# houses_df.to_csv()

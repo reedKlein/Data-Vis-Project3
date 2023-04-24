@@ -15,16 +15,12 @@
         </div>
     </div>
     <div class="grid-container">
-      <div id="char_lines_container" class="grid-item">
-        <div class="chartH">
-          <h1>Charater Lines</h1>
+        <div id="house_lines_container" class="grid-item">
+            <div class="chartH">
+                <h1>Lines per Major House</h1>
+            </div>
+            <svg id="house_lines_chart"></svg>
         </div>
-        <svg id="char_lines_chart"></svg>
-        <div id="char_lines_f" class="chartF">
-          <button id="char_prev">prev</button>
-          <button id="char_next">next</button>
-        </div>
-      </div>
         <div id="season_lines_container" class="grid-item">
             <div class="chartH">
                 <h1>Lines Per Season</h1>
@@ -33,28 +29,50 @@
         </div>
         <div id="phrase_lookup_container" class="grid-item">
             <div class="chartH">
-                <h1>Lookup a phrase</h1>
+                <h1>Phrase Lookup</h1>
             </div>
-            <input id="phrase_lookup_input"/>
+            <div id="phrase_lookup_input_container">
+                <input id="phrase_lookup_input" placeholder="Search for a phrase"/>
+            </div>
             <div id="phrase_lookup_footer" class="chartF">
-                <button id="phrase_lookup_but">Search Phrase</button>
+                <button id="phrase_lookup_but" class="buttons-graphs">Search Phrase</button>
+                <button hidden id="phrase_clear_but" class="buttons-graphs">Clear Search Phrase</button>
+            </div>
+            <div id="clear_all_container">
+                <button hidden type="button" id="clear-filters" class="buttons-graphs">Clear All Filters</button>
             </div>
         </div>
     </div>
-        <div class="grid-container">
-            <div id="house_lines_container" class="grid-item">
+        <div class="g-row">
+            <div id="char_lines_container" class="columns">
                 <div class="chartH">
-                    <h1>Lines per Major House</h1>
+                  <h1>Character Lines</h1>
                 </div>
-                <svg id="house_lines_chart"></svg>
-            </div>
-            <div id="episode_lines_container" class="grid-item">
+                <svg id="char_lines_chart"></svg>
+                <div id="char_lines_f" class="chartF">
+                  <button id="char_prev" hidden class="buttons-graphs">prev</button>
+                  <button id="char_next" class="buttons-graphs">next</button>
+                </div>
+              </div>
+            <div id="episode_lines_container" class="columns">
                 <div class="chartH">
                   <h1>Lines Per Episode</h1>
                 </div>
                 <svg id="episode_lines_chart"></svg>
             </div>
-    </div>
+        </div>
+        <div class="cloud_container">
+            <div id="word_cloud_container" class="grid-item">
+                <div class="chartH">
+                    <h1>Word Cloud</h1>
+                </div>
+                <div id="wordcloud"></div>
+            </div>
+        </div>
+        <div style="width:100%">
+            <p style="color:#FFF190; text-align:center">Libraries: D3, <a style="color:#FFF190;" href="https://github.com/jasondavies/d3-cloud" target="_blank">Word cloud layout</a></p>
+            <p style="color:#FFF190; text-align:center">Data: <a style="color:#FFF190;" href="https://www.kaggle.com/datasets/gopinath15/gameofthrones?resource=download" target="_blank">Game of Thrones Script Data</a></p>
+        </div>
     <div id="tooltip"></div>
   </div>
 
@@ -62,7 +80,6 @@
   <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
 
   <!-- Create a div where the graph will take place -->
-  <div id="wordcloud"></div>
 
   <script src="js/d3.min.js"></script>
   <script src="js/d3.layout.cloud.js"></script>
