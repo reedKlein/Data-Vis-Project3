@@ -1,5 +1,5 @@
 // referenced https://stackoverflow.com/questions/29194489/how-to-use-d3-layout-cloud-js-to-create-a-word-cloud-with-a-csv-containing-both
-var wordBlackList = ["the", "of", "a", "i", "to", "was", "be", "my", "do", "and", "he", "me", "your", "is", "that", "it", "at", "in", "for", "have", "will", "this", "but", "what", "you", "don't", "with", "she", "are", "they", "has", "him", "well", "i'm", "his", "you're", "by", "you've", "as", "or", "there", "did", "too", "we", "so", "that's", "doesn't", "i'd", "l", "i'll", "she's", "their", "when", "there's", "an", "about", "them", "would", "i've", "he's", "into", "it's", "than", "like", "some", "over", "does", "on", "rape", "got", "does", "after", "am", "oh", "you'll", "off", "sure", "we're", "were", "where", "any", "from", "before", "how", "can", "use"];
+var wordBlackList = ["the", "of", "a", "i", "to", "was", "be", "my", "do", "and", "he", "me", "your", "is", "that", "it", "at", "in", "for", "have", "will", "this", "but", "what", "you", "don't", "cunt", "with", "she", "are", "they", "has", "him", "well", "i'm", "his", "you're", "by", "you've", "as", "or", "there", "did", "too", "we", "so", "that's", "doesn't", "i'd", "l", "i'll", "she's", "their", "when", "there's", "an", "about", "them", "would", "i've", "he's", "into", "it's", "than", "like", "some", "over", "does", "on", "rape", "got", "does", "after", "am", "oh", "you'll", "off", "sure", "we're", "were", "where", "any", "from", "before", "how", "can", "use"];
 function updateWordCloud() {
   d3.select("#wordcloud").select("svg").remove();
     // var myWords = [{ "text": "test", "size": 1 }, { "text": "a", "size": 1 }, { "text": "banana", "size": 1 }]
@@ -311,12 +311,6 @@ function filtering(){
                                                 filter_data = filter.d.toString().toLowerCase();
                                                 return (text_data.includes(filter_data))
                                                 });
-        }
-        else if(filter.field == 'requested_datetime'){
-          filtered_data = filtered_data.filter(x => {return new Date(x[filter.field]) >= filter.d['d0'] && new Date(x[filter.field]) < filter.d['d1']});
-        }
-        else if(filter.field === "areaSelect"){
-          filtered_data = filtered_data.filter(x => {return x['longitude'] < filter.d['d0Lon'] && x['longitude'] > filter.d['d1Lon'] && x['latitude'] > filter.d['d0Lat'] && x['latitude'] < filter.d['d1Lat']})
         }
     });
     return filtered_data;
