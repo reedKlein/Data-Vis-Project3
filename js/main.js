@@ -163,6 +163,7 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
     // var wordBlackList = [];
   });
 
+//update our list of words with filters
 function update_wordDict(){
     wordDict = [];
     wordcloud_filter_data = filtering();
@@ -246,6 +247,7 @@ function update_charts(filtered_data) {
   updateWordCloud();
 }
 
+// event listeners
 d3.select('#char_prev').on('click', d => {
 nextBut = document.getElementById('char_next');
   prevBut = document.getElementById('char_prev');
@@ -297,6 +299,7 @@ function clearSelect(){
     update_charts(master_data);
   }
 
+// returning a copy of filtered data to caller
 function filtering(){
     filtered_data = master_data;
     if(selected_filters.length > 0){document.getElementById('clear-filters').hidden = false;} else{document.getElementById('clear-filters').hidden = true;}
