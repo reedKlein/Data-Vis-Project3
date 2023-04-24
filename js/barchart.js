@@ -144,16 +144,14 @@ class Barchart {
       // Format tooltip for barchart types
       vis.tooltipSelect = (type, d) => {
         switch(type){
-          case "sy_snum":
-            return `<div class="tooltip-label">${d.x} star(s)</div>${d3.format(',')(d.y)} planet(s)`;
-          case "sy_pnum":
-            return `<div class="tooltip-label">${d.x} planet(s)</div>${d3.format(',')(d.y)} system(s)`;
-          case "st_spectype":
-            return `<div class="tooltip-label">star type: ${d.x}</div>${d3.format(',')(d.y)} planet(s)`;
-          case "discoverymethod":
-            return `<div class="tooltip-label">method: ${d.x}</div>${d3.format(',')(d.y)} planet(s)`;
-          case "habitability":
-            return `<div class="tooltip-label">status: ${d.x}</div>${d3.format(',')(d.y)} planet(s)`;
+          case "speaker":
+            return `<div class="tooltip-label">Speaker: ${d.x}</div>${d3.format(',')(d.y)} line(s)`;
+          case "episode":
+            return `<div class="tooltip-label">Episode: ${d.x} </div>${d3.format(',')(d.y)} line(s)`;
+          case "season":
+            return `<div class="tooltip-label">Season ${d.x}</div>${d3.format(',')(d.y)} line(s)`;
+          case "major_house":
+            return `<div class="tooltip-label">House: ${d.x}</div>${d3.format(',')(d.y)} line(s)`;
         }
         return `<div class="tooltip-label">${type}<br>${d.x}</div>${d3.format(',')(d.y)}`;
       }
