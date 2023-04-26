@@ -1,6 +1,8 @@
 // referenced https://stackoverflow.com/questions/29194489/how-to-use-d3-layout-cloud-js-to-create-a-word-cloud-with-a-csv-containing-both
 var wordBlackList = ["the", "of", "a", "i", "to", "was", "be", "my", "do", "and", "he", "me", "your", "is", "that", "it", "at", "in", "for", "have", "will", "this", "but", "what", "you", "don't", "cunt", "with", "she", "are", "they", "has", "him", "well", "i'm", "his", "you're", "by", "you've", "as", "or", "there", "did", "too", "we", "so", "that's", "doesn't", "i'd", "l", "i'll", "she's", "their", "when", "there's", "an", "about", "them", "would", "i've", "he's", "into", "it's", "than", "like", "some", "over", "does", "on", "rape", "got", "does", "after", "am", "oh", "you'll", "off", "sure", "we're", "were", "where", "any", "from", "before", "how", "can", "use"];
+var master_wordDict = [];
 function updateWordCloud() {
+    console.log(wordDict);
   d3.select("#wordcloud").select("svg").remove();
     // var myWords = [{ "text": "test", "size": 1 }, { "text": "a", "size": 1 }, { "text": "banana", "size": 1 }]
     wordDict = wordDict.sort((a, b) => a.size - b.size).reverse();
@@ -157,6 +159,8 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
       custom_sort(chart);
       chart.updateVis();
     });
+
+    make_masterWordDict();
     update_wordDict();
     updateWordCloud();
 
@@ -166,17 +170,39 @@ d3.csv('data/game-of-thrones-cleaned-houses.csv')
 //update our list of words with filters
 function update_wordDict(){
     wordDict = [];
-    wordcloud_filter_data = filtering();
-    wordcloud_filter_data.forEach(d => {
+    if(selected_filters.length > 0){
+        wordcloud_filter_data = filtering();
+        wordcloud_filter_data.forEach(d => {   
+            var tempString = d.text.substring(1).toLowerCase().replaceAll(".", "").replaceAll(",", "").replaceAll("?", "").replaceAll("!", "").replaceAll(";", "");
+            tempString = tempString.split(" ");
+            tempString.forEach(word => {
+                if (!(word == "") && !(wordBlackList.includes(word)) && word.charAt(0).toLowerCase() != word.charAt(0).toUpperCase()) {
+                    if (wordDict.find(x => x.text === word) == undefined) {
+                    wordDict.push({ "text": word, "size": 1 });
+                    }
+                    else {
+                    wordDict.find(x => x.text === word).size += 1;
+                    }
+                }
+            });
+        });
+    }
+    else{
+        wordDict = master_wordDict;
+    }
+}
+
+function make_masterWordDict(){
+    master_data.forEach(d => {
         var tempString = d.text.substring(1).toLowerCase().replaceAll(".", "").replaceAll(",", "").replaceAll("?", "").replaceAll("!", "").replaceAll(";", "");
         tempString = tempString.split(" ");
         tempString.forEach(word => {
           if (!(word == "") && !(wordBlackList.includes(word)) && word.charAt(0).toLowerCase() != word.charAt(0).toUpperCase()) {
-            if (wordDict.find(x => x.text === word) == undefined) {
-              wordDict.push({ "text": word, "size": 1 });
+            if (master_wordDict.find(x => x.text === word) == undefined) {
+              master_wordDict.push({ "text": word, "size": 1 });
             }
             else {
-              wordDict.find(x => x.text === word).size += 1;
+              master_wordDict.find(x => x.text === word).size += 1;
             }
           }
         });
@@ -243,7 +269,7 @@ function update_charts(filtered_data) {
       chart.updateVis();
     }
   })
-  update_wordDict()
+  update_wordDict();
   updateWordCloud();
 }
 
@@ -278,6 +304,7 @@ d3.select('#phrase_lookup_but').on('click', d => {
 });
 
 d3.select('#clear-filters').on('click', () =>{
+    document.getElementById('phrase_clear_but').hidden = true;
     document.getElementById('clear-filters').hidden = true;
     clearSelect();
 });
